@@ -1,6 +1,6 @@
 local customEntities = require "necro.game.data.CustomEntities"
 local inventory = require "necro.game.item.Inventory"
-customEntities.register{name = "SpelldaFireball1",
+customEntities.register{name = "SpelldaFireball",
   DynChar_dynamicItem = {
     cropOffset = 14,
     framesX = 1,
