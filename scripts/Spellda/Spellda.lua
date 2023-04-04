@@ -30,6 +30,8 @@ customEntities.extend {
             inventoryCursedSlots = {
                 slots = {
                     shield = true;
+                    action = true;
+                    spell = true;
                 }
             },
             inventoryBannedItemTypes = {

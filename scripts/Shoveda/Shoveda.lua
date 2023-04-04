@@ -42,7 +42,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/Shoveda/sprites/ShovedaHead.png",
+                texture= "mods/CodaFlavors/sprites/ShovedaHead.png",
             },
         },
     },

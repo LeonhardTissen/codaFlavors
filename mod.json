@@ -1,7 +1,7 @@
 {
 	"namespace": "CodaFlavors",
 	"displayName": "Coda Flavors",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"synchronyVersion": "3.6.1",
 	"description": "A whole new world of Coda with a hint of Aria. Adds 9 new Characters with wacky gameplay twists and challenges. In collaboration with Sebseb2222.\n",
 	"author": "Warze",
@@ -11,6 +11,10 @@
 	"banner": "CodaFlavorsBanner.png",
 	"tags": [],
 	"name": "CodaFlavors",
-	"pendingVersion": "1.0.0",
+	"changelog": "",
+	"homepageURL": "https://mod.io/g/crypt/m/codaflavors",
+	"modioID": "2919934",
+	"modioUserID": 13555818,
+	"pendingVersion": "1.0.3",
 	"visibility": 0
 }
