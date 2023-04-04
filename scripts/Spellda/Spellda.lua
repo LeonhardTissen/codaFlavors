@@ -14,15 +14,15 @@ customEntities.extend {
             friendlyName={name="Spellda"},
 			textCharacterSelectionMessage = { text = "Spellda mode!\nUse spells only to defeat enemies!" },
 			cloneSprite = {
-                texture = "mods/Spellda/sprites/SpelldaClone.png",
+                texture = "mods/CodaFlavors/sprites/SpelldaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/Spellda/sprites/SpelldaBestiary.png",
+                image = "mods/CodaFlavors/sprites/SpelldaBestiary.png",
             },
 			sprite={
-                texture= "mods/Spellda/sprites/SpelldaBody.png",
+                texture= "mods/CodaFlavors/sprites/SpelldaBody.png",
             },
             initialEquipment={
                 items={"ShovelBasic","HudBackpack","CodaFlavors_SpelldaFireball","CodaFlavors_SpelldaPulse","CodaFlavors_SpelldaFreeze","CodaFlavors_SpelldaCharm","Bomb3","CharmNazar"},
@@ -56,11 +56,8 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/Spellda/sprites/SpelldaHead.png",
+                texture= "mods/CodaFlavors/sprites/SpelldaHead.png",
             },
         },
     },
 }
-event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Sync_SpellCharm"}, function(ev)
-    print(ev.entity)
-end)
