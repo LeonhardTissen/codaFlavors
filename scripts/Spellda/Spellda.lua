@@ -29,7 +29,7 @@ customEntities.extend {
             },
             inventoryCursedSlots = {
                 slots = {
-                    shield = true;
+                    weapon = true;
                     action = true;
                     spell = true;
                 }

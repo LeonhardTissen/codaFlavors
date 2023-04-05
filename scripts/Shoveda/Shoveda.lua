@@ -12,7 +12,7 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Shoveda"},
-			textCharacterSelectionMessage = { text = "Shoveda mode!\nNo Dagger.\nOnly Shield." },
+			textCharacterSelectionMessage = { text = "Shoveda mode!\nCrush enemies obstructing your path!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Shoveda/ShovedaClone.png",
             },
