@@ -14,15 +14,15 @@ customEntities.extend {
             friendlyName={name="Crysda"},
 			textCharacterSelectionMessage = { text = "Crysda mode!\nNo Dagger.\nOnly Shield." },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/CrysdaClone.png",
+                texture = "mods/CodaFlavors/sprites/Crysda/CrysdaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/CrysdaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Crysda/CrysdaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/CrysdaBody.png",
+                texture= "mods/CodaFlavors/sprites/Crysda/CrysdaBody.png",
             },
             enemyBans = {
                 types = {"Ghost","Monkey","Monkey2","Mole","Shovemonster","Shovemonster2","Sync_ShockMonkey","Monkey3","Monkey4","GoblinBomber","Sync_CoopThief","Sync_CoopMonkey","Sync_CoopGhost","Sync_CoopSpirit"},
@@ -55,7 +55,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/CrysdaHead.png",
+                texture= "mods/CodaFlavors/sprites/Crysda/CrysdaHead.png",
             },
         },
     },

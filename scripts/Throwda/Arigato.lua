@@ -17,10 +17,10 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/ArigatoBestiary.png",
+                image = "mods/CodaFlavors/sprites/Throwda/ArigatoBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/ArigatoBody.png",
+                texture= "mods/CodaFlavors/sprites/Throwda/ArigatoBody.png",
             },
             enemyBans = {
                 types = {},
@@ -39,7 +39,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/ArigatoHead.png",
+                texture= "mods/CodaFlavors/sprites/Throwda/ArigatoHead.png",
             },
         },
     },

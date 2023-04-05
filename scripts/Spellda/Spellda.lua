@@ -14,15 +14,15 @@ customEntities.extend {
             friendlyName={name="Spellda"},
 			textCharacterSelectionMessage = { text = "Spellda mode!\nUse spells only to defeat enemies!" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/SpelldaClone.png",
+                texture = "mods/CodaFlavors/sprites/Spellda/SpelldaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/SpelldaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Spellda/SpelldaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/SpelldaBody.png",
+                texture= "mods/CodaFlavors/sprites/Spellda/SpelldaBody.png",
             },
             initialEquipment={
                 items={"ShovelBasic","HudBackpack","CodaFlavors_SpelldaFireball","CodaFlavors_SpelldaPulse","CodaFlavors_SpelldaFreeze","CodaFlavors_SpelldaCharm","Bomb3","CharmNazar"},
@@ -58,7 +58,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/SpelldaHead.png",
+                texture= "mods/CodaFlavors/sprites/Spellda/SpelldaHead.png",
             },
         },
     },

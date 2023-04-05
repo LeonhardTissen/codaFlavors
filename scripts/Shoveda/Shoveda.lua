@@ -14,15 +14,15 @@ customEntities.extend {
             friendlyName={name="Shoveda"},
 			textCharacterSelectionMessage = { text = "Shoveda mode!\nNo Dagger.\nOnly Shield." },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/ShovedaClone.png",
+                texture = "mods/CodaFlavors/sprites/Shoveda/ShovedaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/ShovedaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Shoveda/ShovedaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/ShovedaBody.png",
+                texture= "mods/CodaFlavors/sprites/Shoveda/ShovedaBody.png",
             },
             initialEquipment={
                 items={"ShovelBasic","CodaFlavors_ShovedaShield","Bomb3","CharmNazar"},
@@ -42,7 +42,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/ShovedaHead.png",
+                texture= "mods/CodaFlavors/sprites/Shoveda/ShovedaHead.png",
             },
         },
     },

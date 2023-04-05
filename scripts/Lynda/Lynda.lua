@@ -14,15 +14,15 @@ customEntities.extend {
             friendlyName={name="Lynda"},
 			textCharacterSelectionMessage = { text = "Lynda mode!\nLunging &\nKnockback" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/LyndaClone.png",
+                texture = "mods/CodaFlavors/sprites/Lynda/LyndaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/LyndaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Lynda/LyndaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/LyndaBody.png",
+                texture= "mods/CodaFlavors/sprites/Lynda/LyndaBody.png",
             },
             enemyBans = {
                 types = {},
@@ -40,7 +40,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/LyndaHead.png",
+                texture= "mods/CodaFlavors/sprites/Lynda/LyndaHead.png",
             },
         },
     },

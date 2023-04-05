@@ -14,15 +14,15 @@ customEntities.extend {
             friendlyName={name="Codash"},
 			textCharacterSelectionMessage = { text = "Codash mode!\nWeak Dagger &\nInfinite Dash" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/CodashClone.png",
+                texture = "mods/CodaFlavors/sprites/Codash/CodashClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/CodashBestiary.png",
+                image = "mods/CodaFlavors/sprites/Codash/CodashBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/CodashBody.png",
+                texture= "mods/CodaFlavors/sprites/Codash/CodashBody.png",
             },
             enemyBans = {
                 types = {},
@@ -40,7 +40,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/CodashHead.png",
+                texture= "mods/CodaFlavors/sprites/Codash/CodashHead.png",
             },
         },
     },

@@ -14,15 +14,15 @@ customEntities.extend {
             friendlyName={name="Aristo"},
 			textCharacterSelectionMessage = { text = "Aristo mode!\nNo Dagger.\nOnly Shield." },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/AristoClone.png",
+                texture = "mods/CodaFlavors/sprites/Crysda/AristoClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/AristoBestiary.png",
+                image = "mods/CodaFlavors/sprites/Crysda/AristoBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/AristoBody.png",
+                texture= "mods/CodaFlavors/sprites/Crysda/AristoBody.png",
             },
             enemyBans = {
                 types = {"Ghost","Monkey","Monkey2","Mole","Shovemonster","Shovemonster2","Sync_ShockMonkey","Monkey3","Monkey4","GoblinBomber","Sync_CoopThief","Sync_CoopMonkey","Sync_CoopGhost","Sync_CoopSpirit"},
@@ -55,7 +55,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/AristoHead.png",
+                texture= "mods/CodaFlavors/sprites/Crysda/AristoHead.png",
             },
         },
     },

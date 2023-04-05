@@ -31,7 +31,7 @@ customEntities.register{name = "WeaponThrowda",
     silhouette = {},
     sprite = {
         height = 24,
-        texture = "mods/CodaFlavors/sprites/ThrowdaDagger.png",
+        texture = "mods/CodaFlavors/sprites/Throwda/ThrowdaDagger.png",
         width = 24
     },
     spriteCropOnDescent = {},

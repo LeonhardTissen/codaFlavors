@@ -70,7 +70,7 @@ customEntities.register{name = "WeaponCodash",
     silhouette = {},
     sprite = {
         height = 24,
-        texture = "mods/CodaFlavors/sprites/CodashDagger.png",
+        texture = "mods/CodaFlavors/sprites/Codash/CodashDagger.png",
         width = 24
     },
     spriteCropOnDescent = {},

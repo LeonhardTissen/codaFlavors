@@ -91,7 +91,7 @@ customEntities.register{name = "WeaponLynda",
     soundWeaponThrow = {},
     sprite = {
         height = 24,
-        texture = "mods/CodaFlavors/sprites/LyndaDagger.png",
+        texture = "mods/CodaFlavors/sprites/Lynda/LyndaDagger.png",
         width = 24
     },
     spriteCropOnDescent = {},

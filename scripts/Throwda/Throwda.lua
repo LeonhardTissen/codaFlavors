@@ -16,10 +16,10 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/ThrowdaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Throwda/ThrowdaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/ThrowdaBody.png",
+                texture= "mods/CodaFlavors/sprites/Throwda/ThrowdaBody.png",
             },
             enemyBans = {
                 types = {},
@@ -38,7 +38,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/ThrowdaHead.png",
+                texture= "mods/CodaFlavors/sprites/Throwda/ThrowdaHead.png",
             },
         },
     },

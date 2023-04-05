@@ -5,7 +5,7 @@ customEntities.register{name = "WeaponCrysda",
     template = customEntities.template.item('WeaponDaggerShard'),
     sprite = {
         height = 24,
-        texture = "mods/CodaFlavors/sprites/CrysdaDagger.png",
+        texture = "mods/CodaFlavors/sprites/Crysda/CrysdaDagger.png",
         width = 24
     },
     DynChar_dynamicItemCopyHolderAnimation = {},
