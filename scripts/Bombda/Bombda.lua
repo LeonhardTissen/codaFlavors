@@ -28,13 +28,16 @@ customEntities.extend {
                 types = {},
             },
             initialEquipment={
-                items={"BombInfinity","CodaFlavors_HeadBlastHelm","CharmNazar"},
+                items={"CodaFlavors_SpellBomb","CodaFlavors_HeadBlastHelm"},
             },
             inventoryCursedSlots = {
                 shovel = true
             },
             inventoryBannedItemTypes = {
                 types = {
+                    CharmBomb = itemBan.Type.FULL,
+                    Bomb = itemBan.Type.FULL,
+                    Bomb3 = itemBan.Type.FULL
                 }
             }
         },
