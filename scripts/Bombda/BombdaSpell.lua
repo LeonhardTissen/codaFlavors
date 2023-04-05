@@ -90,10 +90,6 @@ customEntities.register{name = "SpellBomb",
   soundItemActivate = {
     sound = "bombLit"
   },
-  spellBloodMagic = {
-    damage = 3,
-    killerName = "Blood Magic (Bomb)"
-  },
   spellCooldownTime = {
     cooldown = "2"
   },
