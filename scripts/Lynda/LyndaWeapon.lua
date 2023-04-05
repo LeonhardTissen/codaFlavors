@@ -121,7 +121,7 @@ customEntities.register{name = "WeaponLynda",
         name = "Dagger"
     },
     weaponKnockback = {
-        distance = 99
+        distance = 4
     },
     weaponTypeDagger = {}
 }
