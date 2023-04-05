@@ -35,9 +35,19 @@ customEntities.extend {
             },
             inventoryBannedItemTypes = {
                 types = {
-                    CharmBomb = itemBan.Type.FULL,
-                    Bomb = itemBan.Type.FULL,
-                    Bomb3 = itemBan.Type.FULL
+                ArmorGi = itemBan.Type.FULL,
+                FeetBootsStrength = itemBan.Type.FULL,
+                HeadSpikedEars = itemBan.Type.FULL,
+                HeadSunglasses = itemBan.Type.FULL,
+                HeadGlassJaw = itemBan.Type.FULL,
+                CharmRisk = itemBan.Type.FULL,
+                CharmStrength = itemBan.Type.FULL,
+                RingMight = itemBan.Type.FULL,
+                RingPiercing = itemBan.Type.FULL,
+                RingRegeneration = itemBan.Type.FULL,
+                RingWar = itemBan.Type.FULL,
+                RingFrost = itemBan.Type.FULL,
+                Sync_CharmThrowing = itemBan.Type.FULL,
                 }
             }
         },
