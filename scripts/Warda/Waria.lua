@@ -28,7 +28,7 @@ customEntities.extend {
             damageCountdown = {
                 damage = 999,
                 type = damage.Type.SUICIDE,
-                countdownReset = 17,
+                countdownReset = 25,
                 killerName = "Waria's Curse (Tempo)"
             },
             enemyBans = {
