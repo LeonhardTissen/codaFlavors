@@ -43,7 +43,3 @@ customEntities.extend {
         },
     },
 }
-
-event.entitySchemaLoadNamedEntity.add("sdafdas", {key="WeaponRifle"}, function(ev)
-    print(ev.entity)
-end)
