@@ -101,7 +101,9 @@ customEntities.register{name = "WeaponLynda",
     visibilityRevealWhenLit = {},
     visibilityVisibleOnProximity = {},
     visibleByMonocle = {},
-    weapon = {},
+    weapon = {
+        damage = 0
+    },
     weaponCheckOriginCollision = {},
     weaponMaterial = {
         component = "weaponMaterialBase",
