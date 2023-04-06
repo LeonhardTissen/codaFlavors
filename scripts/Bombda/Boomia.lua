@@ -51,6 +51,7 @@ customEntities.extend {
                     RingWar = itemBan.Type.FULL,
                     RingFrost = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL,
+                    SpellBomb = itemBan.Type.FULL,
                 }
             }
         },
