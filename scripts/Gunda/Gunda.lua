@@ -12,7 +12,7 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Gunda"},
-			textCharacterSelectionMessage = { text = "Gunda mode!\nNo dagger.\nOnly gun." },
+			textCharacterSelectionMessage = { text = "Gunda mode!\nNo Dagger.\nOnly Rifle." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {

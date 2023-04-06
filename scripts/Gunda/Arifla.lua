@@ -12,7 +12,7 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Arifla"},
-			textCharacterSelectionMessage = { text = "Arifla mode!\nNo dagger.\nOnly gun." },
+			textCharacterSelectionMessage = { text = "Arifla mode!\nNo Dagger.\nOnly Rifle." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
