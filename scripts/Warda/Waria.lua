@@ -8,34 +8,34 @@ local inventory = require "necro.game.item.Inventory"
 local damage = require "necro.game.system.Damage"
 
 customEntities.extend {
-    name="Warda",
-    template=customEntities.template.player(7),
+    name="Waria",
+    template=customEntities.template.player(2),
     components = {
         {
-            friendlyName={name="Warda"},
-			textCharacterSelectionMessage = { text = "Warda mode!\nYou are bloodthirsty!\nDeclare war on your enemies!" },
+            friendlyName={name="Waria"},
+			textCharacterSelectionMessage = { text = "Waria mode!\nYou are bloodthirsty!\nDeclare war on your enemies!" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Warda/WardaClone.png",
+                texture = "mods/CodaFlavors/sprites/Warda/WariaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Warda/WardaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Warda/WariaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Warda/WardaBody.png",
+                texture= "mods/CodaFlavors/sprites/Warda/WariaBody.png",
             },
             damageCountdown = {
                 damage = 999,
                 type = damage.Type.SUICIDE,
                 countdownReset = 33,
-                killerName = "Warda's Curse (Tempo)"
+                killerName = "Waria's Curse (Tempo)"
               },
             enemyBans = {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","WeaponDagger","RingWar","Food1","Bomb","Sync_CharmThrowing","Torch",},
+                items={"ShovelBasic","WeaponDagger","RingWar","Food1","Bomb","Sync_CharmThrowing","Torch","MiscPotion"},
             },
             inventoryCursedSlots = {
                 slots = {
@@ -47,7 +47,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Warda/WardaHead.png",
+                texture= "mods/CodaFlavors/sprites/Warda/WariaHead.png",
             },
         },
     },
