@@ -12,7 +12,7 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Lara"},
-			textCharacterSelectionMessage = { text = "Lara mode!\nLunging &\nKnockback" },
+			textCharacterSelectionMessage = { text = "Lara mode!\nLunging &\nKnockback." },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Lynda/LaraClone.png",
             },

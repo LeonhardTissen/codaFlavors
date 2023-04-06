@@ -12,7 +12,7 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Aristo"},
-			textCharacterSelectionMessage = { text = "Aristo mode!\nNo Dagger.\nOnly Shield." },
+			textCharacterSelectionMessage = { text = "Aristo mode!\nWeak Dagger.\nReflect incoming attacks!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Crysda/AristoClone.png",
             },
