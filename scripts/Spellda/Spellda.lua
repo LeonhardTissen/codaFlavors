@@ -48,7 +48,6 @@ customEntities.extend {
             inventoryCursedSlots = {
                 slots = {
                     weapon = true;
-                    action = true;
                     spell = true;
                 }
             },
@@ -81,3 +80,10 @@ customEntities.extend {
         },
     },
 }
+event.holderGetActionItem.add("SpellThrow", {order = "reload", filter = "CodaFlavors_SpelldaCharm"}, function (ev)
+    if ev.item == nil and ev.action == action.Special.THROW then
+        ev.item = ev.entity
+        ev.slotImage = "ext/gui/hud_slot_throw.png"
+        ev.slotLabel = "Throw"
+    end
+end)
