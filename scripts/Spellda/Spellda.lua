@@ -12,7 +12,7 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Spellda"},
-			textCharacterSelectionMessage = { text = "Spellda mode!\nUse spells only to defeat enemies!" },
+			textCharacterSelectionMessage = { text = "Spellda mode!\nUse spells only\nto defeat enemies!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Spellda/SpelldaClone.png",
             },
