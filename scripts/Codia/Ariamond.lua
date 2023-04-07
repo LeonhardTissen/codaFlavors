@@ -42,13 +42,6 @@ customEntities.extend {
                     [12] = true
                 }
             },
-            inventoryBannedItems = {
-                components = {
-                    itemBanDiagonal = 4165121,
-                    itemBanDiamond = 2916352,
-                    shrineBanDiamond = 2916352
-                }
-            },
             actionRemap = {},
             inventoryCursedSlots = {
                 slots = {
