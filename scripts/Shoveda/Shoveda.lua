@@ -5,7 +5,11 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local map = require "necro.game.object.Map"
 
+components.register {
+    CodaFlavors_shovedaCoinSuppress = {},
+}
 customEntities.extend {
     name="Shoveda",
     template=customEntities.template.player(7),
@@ -38,7 +42,8 @@ customEntities.extend {
                     RingPiercing = itemBan.Type.FULL,
                     RingRegeneration = itemBan.Type.FULL,
                 }
-            }
+            },
+            CodaFlavors_shovedaCoinSuppress = {}
         },
 		{
 			sprite={
@@ -47,3 +52,9 @@ customEntities.extend {
         },
     },
 }
+event.objectKill.add(nil, {order = "currencyDrop", sequence = 1, filter = "CodaFlavors_shovedaCoinSuppress"}, function (ev)
+    local gold = map.firstWithComponent(ev.victim.position.x, ev.victim.position.y, "itemCurrency")
+    if gold and gold.item then
+        gold.item.suppressPickup = true
+    end
+end)

@@ -21,7 +21,7 @@ DynChar_dynamicItem = {
   Sync_itemIncomingDamageImmunityDirectional = {},
   Sync_itemShove = {
     damage = 1,
-    damageType = 132105
+    damageType = 1033
   },
   audioChannel = {
     mask = 32768
@@ -65,11 +65,6 @@ DynChar_dynamicItem = {
   itemPickupAnimation = {},
   itemPickupFlyaway = {},
   itemPickupSound = {},
-
-  itemPrice = {
-    blood = 2,
-    coins = 50
-  },
   itemResetDamageCountdown = {},
   itemSlot = {
     name = "weapon"
