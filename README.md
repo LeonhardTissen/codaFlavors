@@ -1,17 +1,18 @@
 <img src="CodaFlavorsTextHorizontal.png">
+<br />
 A whole new world of Coda with a hint of Aria. Adds 20 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
 <br />
 <img src="CodaFlavorsBannerScaled.png">
 
-| Description                                        | Aria-Like                                        | Coda-Like                                |
-|----------------------------------------------------|--------------------------------------------------|------------------------------------------|
-| Weak Dagger. Reflect incoming attacks!             | Aristo <img src="previews/aristo.png">           | Crysda <img src="previews/crysda.png">   |
-| Crush enemies obstructing your path!               | Pushria <img src="previews/pushria.png">         | Shoveda <img src="previews/shoveda.png"> |
-| No Attack. Only Throw.                             | Arigato <img src="previews/arigato.png">         | Throwda <img src="previews/throwda.png"> |
-| Use spells only to defeat enemies!                 | Ariacadabra <img src="previews/ariacadabra.png"> | Spellda <img src="previews/spellda.png"> |
-| Lunging & Knockback.                               | Lara <img src="previews/lara.png">               | Lynda <img src="previews/lynda.png">     |
-| You are bloodthirsty! Declare war on your enemies! | Waria <img src="previews/waria.png">             | Warda <img src="previews/warda.png">     |
-| No Dagger & Instant Bombs                          | Boomia <img src="previews/boomia.png">           | Bombda <img src="previews/bombda.png">   |
-| Weak Dagger & Infinite Dash                        | Aridash <img src="previews/aridash.png">         | Codash <img src="previews/codash.png">   |
-| No Dagger. Only Rifle.                             | Arifla <img src="previews/arifla.png">           | Gunda <img src="previews/gunda.png">     |
-| Move diagonally!                                   | Ariamond <img src="previews/ariamond.png">       | Codiago <img src="previews/codiago.png"> |
+| Description                                        | Aria-Like                                              | Coda-Like                                      |
+|----------------------------------------------------|--------------------------------------------------------|------------------------------------------------|
+| Weak Dagger. Reflect incoming attacks!             | Aristo <br/> <img src="previews/aristo.png">           | Crysda <br/> <img src="previews/crysda.png">   |
+| Crush enemies obstructing your path!               | Pushria <br/> <img src="previews/pushria.png">         | Shoveda <br/> <img src="previews/shoveda.png"> |
+| No Attack. Only Throw.                             | Arigato <br/> <img src="previews/arigato.png">         | Throwda <br/> <img src="previews/throwda.png"> |
+| Use spells only to defeat enemies!                 | Ariacadabra <br/> <img src="previews/ariacadabra.png"> | Spellda <br/> <img src="previews/spellda.png"> |
+| Lunging & Knockback.                               | Lara <br/> <img src="previews/lara.png">               | Lynda <br/> <img src="previews/lynda.png">     |
+| You are bloodthirsty! Declare war on your enemies! | Waria <br/> <img src="previews/waria.png">             | Warda <br/> <img src="previews/warda.png">     |
+| No Dagger & Instant Bombs                          | Boomia <br/> <img src="previews/boomia.png">           | Bombda <br/> <img src="previews/bombda.png">   |
+| Weak Dagger & Infinite Dash                        | Aridash <br/> <img src="previews/aridash.png">         | Codash <br/> <img src="previews/codash.png">   |
+| No Dagger. Only Rifle.                             | Arifla <br/> <img src="previews/arifla.png">           | Gunda <br/> <img src="previews/gunda.png">     |
+| Move diagonally!                                   | Ariamond <br/> <img src="previews/ariamond.png">       | Codiago <br/> <img src="previews/codiago.png"> |
