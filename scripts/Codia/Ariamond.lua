@@ -42,6 +42,17 @@ customEntities.extend {
                     [12] = true
                 }
             },
+            inventoryBannedItems = {
+                types = {
+                    Sync_CharmThrowing = itemBan.Type.FULL,
+                    ArmorChainmail = itemBan.Type.FULL,
+                    ArmorHeavyplate = itemBan.Type.FULL,
+                    ArmorLeather = itemBan.Type.FULL,
+                    ArmorObsidian = itemBan.Type.FULL,
+                    ArmorPlatemail = itemBan.Type.FULL,
+                    ArmorQuartz = itemBan.Type.FULL
+                }
+            },
             actionRemap = {},
             inventoryCursedSlots = {
                 slots = {

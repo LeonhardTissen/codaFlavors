@@ -39,7 +39,7 @@ customEntities.extend {
             },
             hudHideSlots = {
                 hidden = {
-                  [12] = true
+                    [12] = true
                 }
             },
             actionRemap = {},
@@ -48,6 +48,17 @@ customEntities.extend {
                     weapon = true,
                     hud = true,
                     spell = true
+                }
+            },
+            inventoryBannedItems = {
+                types = {
+                    Sync_CharmThrowing = itemBan.Type.FULL,
+                    ArmorChainmail = itemBan.Type.FULL,
+                    ArmorHeavyplate = itemBan.Type.FULL,
+                    ArmorLeather = itemBan.Type.FULL,
+                    ArmorObsidian = itemBan.Type.FULL,
+                    ArmorPlatemail = itemBan.Type.FULL,
+                    ArmorQuartz = itemBan.Type.FULL
                 }
             },
         },
