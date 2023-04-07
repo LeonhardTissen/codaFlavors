@@ -1,5 +1,5 @@
 # Coda Flavors
-A whole new world of Coda with a hint of Aria. Adds 18 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
+A whole new world of Coda with a hint of Aria. Adds 20 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
 <br />
 <img src="CodaFlavorsBannerScaled.png">
 
@@ -14,3 +14,4 @@ A whole new world of Coda with a hint of Aria. Adds 18 new Characters to Crypt o
 | No Dagger & Instant Bombs                          | Boomia <img src="previews/boomia.png">           | Bombda <img src="previews/bombda.png">   |
 | Weak Dagger & Infinite Dash                        | Aridash <img src="previews/aridash.png">         | Codash <img src="previews/codash.png">   |
 | No Dagger. Only Rifle.                             | Arifla <img src="previews/arifla.png">           | Gunda <img src="previews/gunda.png">     |
+| Move diagonally!                                   | Ariamond <img src="previews/ariamond.png">       | Codiago <img src="previews/codiago.png"> |
