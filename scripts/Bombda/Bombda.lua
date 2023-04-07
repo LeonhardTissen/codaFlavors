@@ -80,7 +80,3 @@ customEntities.extend {
         },
     },
 }
-
-event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Coda"}, function(ev)
-    print(ev.entity)
-end)
