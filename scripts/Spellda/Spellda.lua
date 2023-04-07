@@ -5,6 +5,7 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local ActionItem = require "necro.game.item.ActionItem"
 
 customEntities.extend {
     name="Spellda",
@@ -48,6 +49,7 @@ customEntities.extend {
             inventoryCursedSlots = {
                 slots = {
                     weapon = true;
+                    action = true;
                     spell = true;
                 }
             },
