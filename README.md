@@ -1,7 +1,7 @@
 # Coda Flavors
 <p align="center">
-A whole new world of Coda with a hint of Aria. Adds 18 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222
-<img src="CodaFlavorsBanner.png" width="640" style="image-rendering: pixelated">
+A whole new world of Coda with a hint of Aria. Adds 18 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
+<img src="CodaFlavorsBannerScaled.png">
 </p>
 
 | Description                                        | Aria-Like                                        | Coda-Like                                |
