@@ -36,7 +36,8 @@ customEntities.extend {
             inventoryBannedItemTypes = {
                 types = {
                 }
-            }
+            },
+            traitStoryBosses = {},
         },
 		{
 			sprite={

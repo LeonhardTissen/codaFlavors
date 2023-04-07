@@ -53,7 +53,8 @@ customEntities.extend {
                     Sync_CharmThrowing = itemBan.Type.FULL,
                     SpellBomb = itemBan.Type.FULL,
                 }
-            }
+            },
+            traitStoryBosses = {}
         },
 		{
 			sprite={

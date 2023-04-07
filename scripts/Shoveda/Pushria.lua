@@ -38,7 +38,8 @@ customEntities.extend {
                     RingPiercing = itemBan.Type.FULL,
                     RingRegeneration = itemBan.Type.FULL,
                 }
-            }
+            },
+            traitStoryBosses = {},
         },
 		{
 			sprite={
