@@ -54,8 +54,7 @@ customEntities.extend {
                 SpellFreezeEnemies = itemBan.Type.FULL,
                 Sync_SpellCharm = itemBan.Type.FULL
                 }
-            },
-            traitStoryBosses = {},
+            }
         },
 		{
 			sprite={
