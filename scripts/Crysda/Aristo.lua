@@ -51,7 +51,8 @@ customEntities.extend {
                     RingFrost = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL
                 }
-            }
+            },
+            traitStoryBosses = {},
         },
 		{
 			sprite={
