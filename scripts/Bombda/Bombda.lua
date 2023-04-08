@@ -81,3 +81,7 @@ customEntities.extend {
         },
     },
 }
+
+event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Bolt"}, function(ev)
+    print(ev.entity)
+end)
