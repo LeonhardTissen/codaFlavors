@@ -43,6 +43,12 @@ customEntities.extend {
                 }
             },
             inventoryBannedItemTypes = {
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "WAAAA!!!",
+                    version = 0,
+                },
             }
         },
 		{

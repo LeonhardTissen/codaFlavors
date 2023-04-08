@@ -69,6 +69,12 @@ customEntities.extend {
                     RingFrost = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL
                 }
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Crystalized",
+                    version = 0,
+                },
             }
         },
 		{

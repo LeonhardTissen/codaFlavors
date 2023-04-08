@@ -51,6 +51,12 @@ customEntities.extend {
             rhythmSubdivision = {
                 factor = 1
             },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Nice and Methodical",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

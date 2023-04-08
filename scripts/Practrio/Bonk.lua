@@ -33,6 +33,12 @@ customEntities.extend {
             rhythmSubdivision = {
                 factor = 2
             },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "No Popcorn for me!",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

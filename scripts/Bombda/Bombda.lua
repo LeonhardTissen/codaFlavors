@@ -73,6 +73,12 @@ customEntities.extend {
                     SpellBomb = itemBan.Type.FULL,
                 }
             },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Kaboom!!!",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

@@ -33,6 +33,12 @@ customEntities.extend {
             rhythmSubdivision = {
                 factor = 2
             },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Tired yet?",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

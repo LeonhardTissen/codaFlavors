@@ -53,6 +53,12 @@ customEntities.extend {
                 }
             },
             traitStoryBosses = {},
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Clean Cut",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

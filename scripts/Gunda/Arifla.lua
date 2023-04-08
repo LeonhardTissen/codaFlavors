@@ -34,6 +34,12 @@ customEntities.extend {
                     RingPiercing = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL
                 }
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Clean Shot",
+                    version = 0,
+                },
             }
         },
 		{

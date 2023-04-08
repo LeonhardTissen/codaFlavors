@@ -54,6 +54,12 @@ customEntities.extend {
             inventoryBannedItemTypes = {
                 types = {
                 }
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Omae Wa Mou Shindeiru",
+                    version = 0,
+                },
             }
         },
 		{

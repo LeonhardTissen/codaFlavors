@@ -38,6 +38,12 @@ customEntities.extend {
                 }
             },
             traitStoryBosses = {},
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Didn't see that coming, did you?",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

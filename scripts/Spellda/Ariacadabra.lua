@@ -56,6 +56,12 @@ customEntities.extend {
                 }
             },
             traitStoryBosses = {},
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "A Burning Charm",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

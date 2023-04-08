@@ -76,7 +76,13 @@ customEntities.extend {
                 Sync_SpellCharm = itemBan.Type.FULL
                 }
             },
-            CodaFlavors_spelldaThrowSlot = {}
+            CodaFlavors_spelldaThrowSlot = {},
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Light the Way",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={
