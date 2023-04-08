@@ -46,8 +46,8 @@ customEntities.extend {
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Finally at peace",
-                    version = 0,
+                    friendlyName = "A genocide? I call it Pest Control",
+                    version = 1,
                 },
             }
         },
