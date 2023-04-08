@@ -33,6 +33,7 @@ customEntities.extend {
             inventoryCursedSlots = {
                 shovel = true
             },
+            wallDropSuppressor = {},
             inventoryBannedItemTypes = {
                 types = {
                     CharmBomb = itemBan.Type.FULL,
