@@ -46,7 +46,7 @@ customEntities.extend {
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "WAAAA!!!",
+                    friendlyName = "Finally at peace",
                     version = 0,
                 },
             }
