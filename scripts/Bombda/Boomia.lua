@@ -55,7 +55,9 @@ customEntities.extend {
                     SpellBomb = itemBan.Type.FULL,
                 }
             },
-            traitStoryBosses = {},
+            traitStoryBosses = {
+                bosses = {}
+            },,
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Boom!",
