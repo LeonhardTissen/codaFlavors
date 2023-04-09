@@ -54,7 +54,7 @@ customEntities.extend {
             },
             traitStoryBosses = {
                 bosses = {}
-            },,
+            },
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Clean Cut",
