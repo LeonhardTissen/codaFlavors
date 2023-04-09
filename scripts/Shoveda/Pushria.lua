@@ -41,7 +41,7 @@ customEntities.extend {
             },
             traitStoryBosses = {
                 bosses = {}
-            },,
+            },
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "It only takes a little push",
