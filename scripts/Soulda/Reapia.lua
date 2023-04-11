@@ -41,7 +41,10 @@ customEntities.extend {
                     version = 0,
                 },
             },
-            spawnSoulOnKill = { soulType = "ReaperSoul" }
+            spawnSoulOnKill = { soulType = "ReaperSoul" },
+            soulLeaderAnimation = {
+                variantCount = 8
+            },
         },
 		{
 			sprite={
