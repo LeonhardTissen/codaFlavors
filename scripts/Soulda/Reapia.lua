@@ -27,7 +27,7 @@ customEntities.extend {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","WeaponDagger","Bomb","CharmNazar","Torch1"},
+                items={"ShovelBasic","WeaponDagger","Bomb","CharmNazar","Torch1","MiscPotion"},
             },
             inventoryCursedSlots = {
             },
