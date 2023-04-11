@@ -7,9 +7,6 @@ local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
 local ActionItem = require "necro.game.item.ActionItem"
 
-components.register {
-    CodaFlavors_spelldaThrowSlot = {},
-}
 customEntities.extend {
     name="Spellda",
     template=customEntities.template.player(7),
@@ -47,11 +44,12 @@ customEntities.extend {
                 texture= "mods/CodaFlavors/sprites/Spellda/SpelldaBody.png",
             },
             initialEquipment={
-                items={"ShovelBasic","BagHolding","CodaFlavors_SpelldaFireball","CodaFlavors_SpelldaPulse","CodaFlavors_SpelldaFreeze","CodaFlavors_SpelldaCharm","Bomb3","CharmNazar"},
+                items={"ShovelBasic","HudBackpack","CodaFlavors_SpelldaFireball","CodaFlavors_SpelldaPulse","CodaFlavors_SpelldaFreeze","CodaFlavors_SpelldaCharm","Bomb3","CharmNazar"},
             },
             inventoryCursedSlots = {
                 slots = {
                     weapon = true;
+                    action = true;
                     spell = true;
                 }
             },
@@ -75,13 +73,6 @@ customEntities.extend {
                 SpellFreezeEnemies = itemBan.Type.FULL,
                 Sync_SpellCharm = itemBan.Type.FULL
                 }
-            },
-            CodaFlavors_spelldaThrowSlot = {},
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "Light the Way",
-                    version = 0,
-                },
             }
         },
 		{
@@ -91,3 +82,10 @@ customEntities.extend {
         },
     },
 }
+event.holderGetActionItem.add("SpellThrow", {order = "reload", filter = "CodaFlavors_SpelldaCharm"}, function (ev)
+    if ev.item == nil and ev.action == action.Special.THROW then
+        ev.item = ev.entity
+        ev.slotImage = "ext/gui/hud_slot_throw.png"
+        ev.slotLabel = "Throw"
+    end
+end)

@@ -5,9 +5,11 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local map = require "necro.game.object.Map"
+local Follower = require "necro.game.character.Follower"
 
 customEntities.extend {
-    name="Lynda",
+    name="Soulda",
     template=customEntities.template.player(7),
     components = {
         {
@@ -18,7 +20,7 @@ customEntities.extend {
                     base = { -1, 4, -1, 4, -1, 4, -1, 4 },
                     body = { -0.5, 2, -0.5, 2, -0.5, 2, -0.5, 2 },
                     bomb = { -0.5, 2, -0.5, 2, -0.5, 2, -0.5, 2 },
-                    feet = { -0.5, -1, -0.5, -1, -0.5, -1, -0.5, -1 },
+                    feet = { -0.5, 3, -0.5, 3, -0.5, 3, -0.5, 3 },
                     head = { -0.5, -1, -0.5, 1, -0.5, 3, -0.5, 1 },
                     hud = { -0.5, 2, -0.5, 2, -0.5, 2, -0.5, 2 },
                     misc = { -0.5, 0, -0.5, 2, -0.5, 4, -0.5, 2 },
@@ -29,36 +31,40 @@ customEntities.extend {
                     weapon = { 1.5, 2, 3.5, 2, 4.5, 1, 2.5, 2 }
                 }
             },
-            friendlyName={name="Lynda"},
-			textCharacterSelectionMessage = { text = "Lynda mode!\nLunging &\nKnockback." },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Lynda/LyndaClone.png",
-            },
+            friendlyName={name="Soulda"},
+			textCharacterSelectionMessage = { text = "Soulda mode!\nSteal your enemies soul" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Lynda/LyndaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Soulda/SouldaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Lynda/LyndaBody.png",
+                texture= "mods/CodaFlavors/sprites/Soulda/SouldaBody.png",
             },
             enemyBans = {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","CodaFlavors_FeetBootsLunging","Bomb","CharmNazar","CodaFlavors_WeaponLynda"},
+                items={"ShovelBasic","WeaponDagger","Bomb","CharmNazar","Torch1"},
             },
             inventoryCursedSlots = {
-                slots = {
-                    feet = true;
-                }
             },
             inventoryBannedItemTypes = {
-            }
+                types = {
+                }
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Soulless",
+                    version = 0,
+                },
+            },
+            spawnSoulOnKill = { soulType = "ReaperSoul" }
+
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Lynda/LyndaHead.png",
+                texture= "mods/CodaFlavors/sprites/Soulda/SouldaHead.png",
             },
         },
     },

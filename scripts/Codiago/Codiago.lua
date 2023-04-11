@@ -79,12 +79,6 @@ customEntities.extend {
                     ArmorQuartz = itemBan.Type.FULL
                 }
             },
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "3D Chess",
-                    version = 0,
-                },
-            }
         },
 		{
 			sprite={

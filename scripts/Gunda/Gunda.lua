@@ -52,12 +52,6 @@ customEntities.extend {
                     RingPiercing = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL
                 }
-            },
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "Wild West",
-                    version = 0,
-                },
             }
         },
 		{

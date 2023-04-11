@@ -43,12 +43,6 @@ customEntities.extend {
                 }
             },
             inventoryBannedItemTypes = {
-            },
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "Finally at peace",
-                    version = 1,
-                },
             }
         },
 		{

@@ -55,15 +55,7 @@ customEntities.extend {
                 Sync_SpellCharm = itemBan.Type.FULL
                 }
             },
-            traitStoryBosses = {
-                bosses = {}
-            },
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "A Burning Charm",
-                    version = 0,
-                },
-            }
+            traitStoryBosses = {},
         },
 		{
 			sprite={

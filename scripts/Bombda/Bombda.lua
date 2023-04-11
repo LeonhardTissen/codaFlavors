@@ -51,7 +51,6 @@ customEntities.extend {
             inventoryCursedSlots = {
                 shovel = true
             },
-            wallDropSuppressor = {},
             inventoryBannedItemTypes = {
                 types = {
                     CharmBomb = itemBan.Type.FULL,
@@ -73,12 +72,6 @@ customEntities.extend {
                     SpellBomb = itemBan.Type.FULL,
                 }
             },
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "Kaboom!!!",
-                    version = 0,
-                },
-            }
         },
 		{
 			sprite={
