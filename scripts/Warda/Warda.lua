@@ -43,6 +43,12 @@ customEntities.extend {
                 }
             },
             inventoryBannedItemTypes = {
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "A genocide? I call it Pest Control",
+                    version = 1,
+                },
             }
         },
 		{

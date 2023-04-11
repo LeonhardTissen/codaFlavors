@@ -61,7 +61,13 @@ customEntities.extend {
                     RingRegeneration = itemBan.Type.FULL,
                 }
             },
-            CodaFlavors_shovedaCoinSuppress = {}
+            CodaFlavors_shovedaCoinSuppress = {},
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "When Push comes to Shove",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

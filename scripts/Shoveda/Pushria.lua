@@ -39,7 +39,15 @@ customEntities.extend {
                     RingRegeneration = itemBan.Type.FULL,
                 }
             },
-            traitStoryBosses = {},
+            traitStoryBosses = {
+                bosses = {}
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "It only takes a little push",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

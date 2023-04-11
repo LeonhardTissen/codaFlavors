@@ -36,6 +36,15 @@ customEntities.extend {
                 }
             },
             inventoryBannedItemTypes = {
+            },
+            traitStoryBosses = {
+                bosses = {}
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Do I look like?",
+                    version = 0,
+                },
             }
         },
 		{

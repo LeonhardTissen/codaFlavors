@@ -61,6 +61,12 @@ customEntities.extend {
                     spell = true
                 }
             },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Fluid Motion",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={

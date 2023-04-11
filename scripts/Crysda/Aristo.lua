@@ -52,7 +52,15 @@ customEntities.extend {
                     Sync_CharmThrowing = itemBan.Type.FULL
                 }
             },
-            traitStoryBosses = {},
+            traitStoryBosses = {
+                bosses = {}
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Clean Cut",
+                    version = 0,
+                },
+            }
         },
 		{
 			sprite={
