@@ -1,6 +1,6 @@
 <img src="logo/CodaFlavorsTextHorizontal.png">
 
-### A whole new world of Coda with a hint of Aria. Adds 23 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
+### A whole new world of Coda with a hint of Aria. Adds 25 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
 
 <img src="logo/CodaFlavorsBannerScaled.png">
 
@@ -16,6 +16,7 @@
 | Weak Dagger & Infinite Dash                        | Aridash <br/> <img src="previews/aridash.png">         | Codash <br/> <img src="previews/codash.png">   |
 | No Dagger. Only Rifle.                             | Arifla <br/> <img src="previews/arifla.png">           | Gunda <br/> <img src="previews/gunda.png">     |
 | Move diagonally!                                   | Ariamond <br/> <img src="previews/ariamond.png">       | Codiago <br/> <img src="previews/codiago.png"> |
+| Steal your enemies soul!                           | Reapia <br/> <img src="previews/reapia.png">           | Soulda <br/> <img src="previews/soulda.png">   |
 
 ### Additional characters
 | Description              | Character                                |
