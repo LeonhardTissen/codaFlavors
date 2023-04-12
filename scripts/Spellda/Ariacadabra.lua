@@ -25,12 +25,11 @@ customEntities.extend {
                 texture= "mods/CodaFlavors/sprites/Spellda/AriacadabraBody.png",
             },
             initialEquipment={
-                items={"ShovelBasic","HudBackpack","CodaFlavors_SpelldaFireball","CodaFlavors_SpelldaPulse","CodaFlavors_SpelldaFreeze","CodaFlavors_SpelldaCharm","Bomb3","CharmNazar","MiscPotion"},
+                items={"ShovelBasic","BagHolding","CodaFlavors_SpelldaFireball","CodaFlavors_SpelldaPulse","CodaFlavors_SpelldaFreeze","CodaFlavors_SpelldaCharm","Bomb3","CharmNazar","MiscPotion"},
             },
             inventoryCursedSlots = {
                 slots = {
                     weapon = true;
-                    action = true;
                     spell = true;
                 }
             },
