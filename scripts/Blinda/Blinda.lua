@@ -46,7 +46,10 @@ customEntities.extend {
                 items={"ShovelCrystal","WeaponDagger","Bomb3","CharmNazar","CodaFlavors_BlindaRing","Sync_ShieldWooden"},
             },
             inventoryCursedSlots = {
-                ring = true;
+                slots = {
+                    ring = true;
+                    torch = true;
+                }
             },
             inventoryBannedItemTypes = {
                 types = {
