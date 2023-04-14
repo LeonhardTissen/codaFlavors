@@ -35,10 +35,8 @@ customEntities.extend {
             },
             inventoryBannedItemTypes = {
                 types = {
-                    Sync_CharmThrowing = itemBan.Type.FULL,
                     MiscCompass = itemBan.Type.FULL,
-                    MiscMap = itemBan.Type.FULL,
-                    TorchWalls = itemBan.Type.FULL
+                    MiscMap = itemBan.Type.FULL
                 }
             },
             InGameAchievements_allZonesAchievement = {

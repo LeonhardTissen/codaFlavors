@@ -60,7 +60,7 @@ DynChar_dynamicItem = {
   itemPickupFlyaway = {},
   itemPickupSound = {},
   itemPurchasePriceMultiplier = {
-    multiplier = 0
+    multiplier = 0.5
   },
   itemResetDamageCountdown = {},
   itemSlot = {
