@@ -54,7 +54,8 @@ customEntities.extend {
             inventoryBannedItemTypes = {
                 types = {
                     MiscCompass = itemBan.Type.FULL,
-                    MiscMap = itemBan.Type.FULL
+                    MiscMap = itemBan.Type.FULL,
+                    HeadCircletTelepathy = itemBan.Type.FULL
                 }
             },
             InGameAchievements_allZonesAchievement = {
