@@ -43,7 +43,7 @@ customEntities.extend {
                 types = {"Monkey","Monkey2","Monkey3","Monkey4","Sync_CoopMonkey","Sync_ShockMonkey"},
             },
             initialEquipment={
-                items={"ShovelCrystal","WeaponDagger","Bomb3","CharmNazar","CodaFlavors_BlindaRing","Sync_ShieldWooden"},
+                items={"ShovelCrystal","WeaponDagger","Bomb","CharmNazar","CodaFlavors_BlindaRing","Sync_ShieldWooden"},
             },
             inventoryCursedSlots = {
                 slots = {
