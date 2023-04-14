@@ -17,6 +17,7 @@
 | No Dagger. Only Rifle.                             | Arifla <br/> <img src="previews/arifla.png">           | Gunda <br/> <img src="previews/gunda.png">     |
 | Move diagonally!                                   | Ariamond <br/> <img src="previews/ariamond.png">       | Codiago <br/> <img src="previews/codiago.png"> |
 | Steal your enemies soul!                           | Reapia <br/> <img src="previews/reapia.png">           | Soulda <br/> <img src="previews/soulda.png">   |
+| You cannot see anything at all!                    | Ariblind <br/> <img src="previews/ariblind.png">       | Blinda <br/> <img src="previews/blinda.png">   |
 
 ### Additional characters
 | Description              | Character                                |
