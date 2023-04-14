@@ -64,7 +64,7 @@ DynChar_dynamicItem = {
   },
   itemResetDamageCountdown = {},
   itemSlot = {
-    name = "ring"
+    name = "misc"
   },
   itemTransmutable = {},
   itemUnlockable = {

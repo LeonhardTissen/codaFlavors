@@ -1,6 +1,6 @@
 <img src="logo/CodaFlavorsTextHorizontal.png">
 
-### A whole new world of Coda with a hint of Aria. Adds 25 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
+### A whole new world of Coda with a hint of Aria. Adds 29 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
 
 <img src="logo/CodaFlavorsBannerScaled.png">
 
@@ -18,6 +18,7 @@
 | Move diagonally!                                   | Ariamond <br/> <img src="previews/ariamond.png">       | Codiago <br/> <img src="previews/codiago.png"> |
 | Steal your enemies soul!                           | Reapia <br/> <img src="previews/reapia.png">           | Soulda <br/> <img src="previews/soulda.png">   |
 | You cannot see anything at all!                    | Ariblind <br/> <img src="previews/ariblind.png">       | Blinda <br/> <img src="previews/blinda.png">   |
+| Courage by heart!                                  | Ariage <br/> <img src="previews/ariage.png">           | Courda <br/> <img src="previews/courda.png">   |
 
 ### Additional characters
 | Description              | Character                                |

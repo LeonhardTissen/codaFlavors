@@ -47,7 +47,6 @@ customEntities.extend {
             },
             inventoryCursedSlots = {
                 slots = {
-                    ring = true;
                     torch = true;
                 }
             },

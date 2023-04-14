@@ -5,50 +5,51 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local map = require "necro.game.object.Map"
 
 customEntities.extend {
-    name="Ariblind",
+    name="Ariage",
     template=customEntities.template.player(2),
     components = {
         {
-            friendlyName={name="Ariblind"},
-			textCharacterSelectionMessage = { text = "Blinda mode!\nYou cannot see anything at all!\nMove in the crypt with no navigation tools!"},
+            friendlyName={name="Ariage"},
+			textCharacterSelectionMessage = { text = "Ariage mode!\nCourage by heart!" },
+			cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Courda/AriageClone.png",
+            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Blinda/AriblindBestiary.png",
+                image = "mods/CodaFlavors/sprites/Courda/AriageBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Blinda/AriblindBody.png",
-            },
-            enemyBans = {
-                types = {"Monkey","Monkey2","Monkey3","Monkey4","Sync_CoopMonkey","Sync_ShockMonkey"},
+                texture= "mods/CodaFlavors/sprites/Courda/AriageBody.png",
             },
             initialEquipment={
-                items={"ShovelCrystal","WeaponDagger","Bomb3","CharmNazar","CodaFlavors_BlindaRing","Sync_ShieldWooden","MiscPotion"},
+                items={"CodaFlavors_CourdaShovel","WeaponDagger","Bomb1","CharmNazar","CodaFlavors_CourdaRing","MiscPotion"},
             },
             inventoryCursedSlots = {
                 slots = {
-                    torch = true;
+                    shovel = true;
                 }
             },
             inventoryBannedItemTypes = {
                 types = {
-                    MiscCompass = itemBan.Type.FULL,
-                    MiscMap = itemBan.Type.FULL,
-                    HeadCircletTelepathy = itemBan.Type.FULL
+                    RingMight = itemBan.Type.FULL,
+                    RingPiercing = itemBan.Type.FULL,
+                    RingRegeneration = itemBan.Type.FULL,
                 }
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Who are you?",
+                    friendlyName = "Enraged",
                     version = 0,
                 },
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Blinda/AriblindHead.png",
+                texture= "mods/CodaFlavors/sprites/Courda/AriageHead.png",
             },
         },
     },
