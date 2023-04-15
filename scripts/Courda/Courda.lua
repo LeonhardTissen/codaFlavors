@@ -73,7 +73,3 @@ customEntities.extend {
         },
     },
 }
-
-event.entitySchemaLoadNamedEntity.add("sdafdas", {key="RingDarkness"}, function(ev)
-    print(ev.entity)
-end)

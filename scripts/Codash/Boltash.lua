@@ -7,28 +7,28 @@ local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
 
 customEntities.extend {
-    name="Aridash",
-    template=customEntities.template.player(2),
+    name="Boltash",
+    template=customEntities.template.player(8),
     components = {
         {
-            friendlyName={name="Aridash"},
-			textCharacterSelectionMessage = { text = "Aridash mode!\nWeak Dagger &\nInfinite Dash" },
+            friendlyName={name="Boltash"},
+			textCharacterSelectionMessage = { text = "Boltash mode!\nInfinite Dash" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/AridashClone.png",
+                texture = "mods/CodaFlavors/sprites/Codash/CodashClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Codash/AridashBestiary.png",
+                image = "mods/CodaFlavors/sprites/Codash/CodashBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashBody.png",
+                texture= "mods/CodaFlavors/sprites/Codash/CodashBody.png",
             },
             enemyBans = {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","CodaFlavors_WeaponCodash","CodaFlavors_SpellDashda","Bomb","CharmNazar","MiscPotion"},
+                items={"ShovelBasic","WeaponSpear","CodaFlavors_SpellDashda","Bomb"},
             },
             inventoryCursedSlots = {
                 slots = {
@@ -39,19 +39,16 @@ customEntities.extend {
                 types = {
                 }
             },
-            traitStoryBosses = {
-                bosses = {}
-            },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Didn't see that coming, did you?",
+                    friendlyName = "Everywhere at once",
                     version = 0,
                 },
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashHead.png",
+                texture= "mods/CodaFlavors/sprites/Codash/CodashHead.png",
             },
         },
     },

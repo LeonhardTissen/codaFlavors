@@ -34,7 +34,6 @@ customEntities.extend {
             },
             inventoryBannedItemTypes = {
                 types = {
-                    RingMight = itemBan.Type.FULL,
                     RingPiercing = itemBan.Type.FULL,
                     RingRegeneration = itemBan.Type.FULL,
                 }

@@ -5,53 +5,52 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local map = require "necro.game.object.Map"
 
 customEntities.extend {
-    name="Aridash",
-    template=customEntities.template.player(2),
+    name="Bold",
+    template=customEntities.template.player(8),
     components = {
         {
-            friendlyName={name="Aridash"},
-			textCharacterSelectionMessage = { text = "Aridash mode!\nWeak Dagger &\nInfinite Dash" },
+            friendlyName={name="Bold"},
+			textCharacterSelectionMessage = { text = "Bold mode!\nCourage by heart!" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/AridashClone.png",
+                texture = "mods/CodaFlavors/sprites/Courda/CourdaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Codash/AridashBestiary.png",
+                image = "mods/CodaFlavors/sprites/Courda/CourdaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashBody.png",
-            },
-            enemyBans = {
-                types = {},
+                texture= "mods/CodaFlavors/sprites/Courda/CourdaBody.png",
             },
             initialEquipment={
-                items={"ShovelBasic","CodaFlavors_WeaponCodash","CodaFlavors_SpellDashda","Bomb","CharmNazar","MiscPotion"},
+                items={"CodaFlavors_CourdaShovel","WeaponSpear","Bomb1","CodaFlavors_CourdaRing"},
             },
             inventoryCursedSlots = {
                 slots = {
-                    spell = true
+                    shovel = true;
                 }
             },
             inventoryBannedItemTypes = {
                 types = {
+                    RingMight = itemBan.Type.FULL,
+                    RingPiercing = itemBan.Type.FULL,
+                    RingRegeneration = itemBan.Type.FULL,
                 }
             },
-            traitStoryBosses = {
-                bosses = {}
-            },
+            CodaFlavors_shovedaCoinSuppress = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Didn't see that coming, did you?",
+                    friendlyName = "Fearless",
                     version = 0,
                 },
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashHead.png",
+                texture= "mods/CodaFlavors/sprites/Courda/CourdaHead.png",
             },
         },
     },

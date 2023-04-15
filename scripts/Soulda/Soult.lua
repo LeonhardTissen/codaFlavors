@@ -5,53 +5,50 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local map = require "necro.game.object.Map"
+local Follower = require "necro.game.character.Follower"
 
 customEntities.extend {
-    name="Aridash",
-    template=customEntities.template.player(2),
+    name="Soult",
+    template=customEntities.template.player(8),
     components = {
         {
-            friendlyName={name="Aridash"},
-			textCharacterSelectionMessage = { text = "Aridash mode!\nWeak Dagger &\nInfinite Dash" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/AridashClone.png",
-            },
+            friendlyName={name="Soult"},
+			textCharacterSelectionMessage = { text = "Soult mode!\nSteal your enemies soul" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Codash/AridashBestiary.png",
+                image = "mods/CodaFlavors/sprites/Soulda/SouldaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashBody.png",
+                texture= "mods/CodaFlavors/sprites/Soulda/SouldaBody.png",
             },
             enemyBans = {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","CodaFlavors_WeaponCodash","CodaFlavors_SpellDashda","Bomb","CharmNazar","MiscPotion"},
+                items={"ShovelBasic","WeaponSpear","Bomb","Torch1"},
             },
             inventoryCursedSlots = {
-                slots = {
-                    spell = true
-                }
             },
             inventoryBannedItemTypes = {
                 types = {
                 }
             },
-            traitStoryBosses = {
-                bosses = {}
-            },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Didn't see that coming, did you?",
+                    friendlyName = "Spiritual Ritual",
                     version = 0,
                 },
+            },
+            spawnSoulOnKill = { soulType = "ReaperSoul" },
+            soulLeaderAnimation = {
+                variantCount = 8
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashHead.png",
+                texture= "mods/CodaFlavors/sprites/Soulda/SouldaHead.png",
             },
         },
     },

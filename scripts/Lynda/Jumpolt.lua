@@ -7,51 +7,47 @@ local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
 
 customEntities.extend {
-    name="Aridash",
-    template=customEntities.template.player(2),
+    name="Jumpolt",
+    template=customEntities.template.player(8),
     components = {
         {
-            friendlyName={name="Aridash"},
-			textCharacterSelectionMessage = { text = "Aridash mode!\nWeak Dagger &\nInfinite Dash" },
+            friendlyName={name="Jumpolt"},
+			textCharacterSelectionMessage = { text = "Jumpolt mode!\nLunging &\nKnockback." },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/AridashClone.png",
+                texture = "mods/CodaFlavors/sprites/Lynda/LyndaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Codash/AridashBestiary.png",
+                image = "mods/CodaFlavors/sprites/Lynda/LyndaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashBody.png",
+                texture= "mods/CodaFlavors/sprites/Lynda/LyndaBody.png",
             },
             enemyBans = {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","CodaFlavors_WeaponCodash","CodaFlavors_SpellDashda","Bomb","CharmNazar","MiscPotion"},
+                items={"ShovelBasic","CodaFlavors_FeetBootsLunging","Bomb","CodaFlavors_WeaponLynda"},
             },
             inventoryCursedSlots = {
                 slots = {
-                    spell = true
+                    feet = true;
+                    weapon = true;
                 }
             },
             inventoryBannedItemTypes = {
-                types = {
-                }
-            },
-            traitStoryBosses = {
-                bosses = {}
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Didn't see that coming, did you?",
+                    friendlyName = "Who's the harpy now?",
                     version = 0,
                 },
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashHead.png",
+                texture= "mods/CodaFlavors/sprites/Lynda/LyndaHead.png",
             },
         },
     },

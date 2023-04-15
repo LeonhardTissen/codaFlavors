@@ -5,53 +5,50 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local map = require "necro.game.object.Map"
 
 customEntities.extend {
-    name="Aridash",
-    template=customEntities.template.player(2),
+    name="Bush",
+    template=customEntities.template.player(8),
     components = {
         {
-            friendlyName={name="Aridash"},
-			textCharacterSelectionMessage = { text = "Aridash mode!\nWeak Dagger &\nInfinite Dash" },
+            friendlyName={name="Bush"},
+			textCharacterSelectionMessage = { text = "Bush mode!\nCrush enemies obstructing your path!" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/AridashClone.png",
+                texture = "mods/CodaFlavors/sprites/Shoveda/ShovedaClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Codash/AridashBestiary.png",
+                image = "mods/CodaFlavors/sprites/Shoveda/ShovedaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashBody.png",
-            },
-            enemyBans = {
-                types = {},
+                texture= "mods/CodaFlavors/sprites/Shoveda/ShovedaBody.png",
             },
             initialEquipment={
-                items={"ShovelBasic","CodaFlavors_WeaponCodash","CodaFlavors_SpellDashda","Bomb","CharmNazar","MiscPotion"},
+                items={"ShovelBasic","CodaFlavors_ShovedaShield","Bomb3"},
             },
             inventoryCursedSlots = {
                 slots = {
-                    spell = true
+                    shield = true;
+                    weapon = true;
                 }
             },
             inventoryBannedItemTypes = {
                 types = {
+                    RingPiercing = itemBan.Type.FULL
                 }
-            },
-            traitStoryBosses = {
-                bosses = {}
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Didn't see that coming, did you?",
+                    friendlyName = "'Scuse me, coming through!",
                     version = 0,
                 },
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/AridashHead.png",
+                texture= "mods/CodaFlavors/sprites/Shoveda/ShovedaHead.png",
             },
         },
     },
