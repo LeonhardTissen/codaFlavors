@@ -22,6 +22,9 @@ customEntities.extend {
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Throwda/ArigatoBody.png",
             },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Throwda/ArigatoClone.png",
+            },
             enemyBans = {
                 types = {},
             },
@@ -30,6 +33,7 @@ customEntities.extend {
             },
             inventoryCursedSlots = {
             },
+            
             inventoryBannedItemTypes = {
                 types = {
                     RingPiercing = itemBan.Type.FULL,

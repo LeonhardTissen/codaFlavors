@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Boltash"},
 			textCharacterSelectionMessage = { text = "Boltash mode!\nInfinite Dash" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/CodashClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Codash/CodashBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Codash/CodashClone.png",
             },
             enemyBans = {
                 types = {},

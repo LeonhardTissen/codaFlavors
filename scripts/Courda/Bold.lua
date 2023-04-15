@@ -14,9 +14,6 @@ customEntities.extend {
         {
             friendlyName={name="Bold"},
 			textCharacterSelectionMessage = { text = "Bold mode!\nCourage by heart!" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Courda/CourdaClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -24,6 +21,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Courda/CourdaBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Courda/CourdaClone.png",
             },
             initialEquipment={
                 items={"CodaFlavors_CourdaShovel","WeaponSpear","Bomb1","CodaFlavors_CourdaRing"},

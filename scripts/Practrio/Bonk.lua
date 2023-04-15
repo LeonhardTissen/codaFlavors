@@ -24,6 +24,9 @@ customEntities.extend {
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Practrio/BonkBody.png",
             },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Practrio/BonkClone.png",
+            },
             enemyBans = {
                 types = {},
             },

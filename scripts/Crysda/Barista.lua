@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Barista"},
 			textCharacterSelectionMessage = { text = "Barista mode!\nWeak Dagger\nReflect incoming attacks!" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Crysda/CrysdaClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Crysda/CrysdaBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Crysda/CrysdaClone.png",
             },
             enemyBans = {
                 types = {"Ghost","Monkey","Monkey2","Mole","Shovemonster","Shovemonster2","Sync_ShockMonkey","Monkey3","Monkey4","GoblinBomber","Sync_CoopThief","Sync_CoopMonkey","Sync_CoopGhost","Sync_CoopSpirit"},

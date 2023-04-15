@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Aristo"},
 			textCharacterSelectionMessage = { text = "Aristo mode!\nWeak Dagger.\nReflect incoming attacks!" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Crysda/AristoClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Crysda/AristoBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Crysda/AristoClone.png",
             },
             enemyBans = {
                 types = {"Ghost","Monkey","Monkey2","Mole","Shovemonster","Shovemonster2","Sync_ShockMonkey","Monkey3","Monkey4","GoblinBomber","Sync_CoopThief","Sync_CoopMonkey","Sync_CoopGhost","Sync_CoopSpirit"},

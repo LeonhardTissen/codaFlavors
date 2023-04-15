@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Lara"},
 			textCharacterSelectionMessage = { text = "Lara mode!\nLunging &\nKnockback." },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Lynda/LaraClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Lynda/LaraBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Lynda/LaraClone.png",
             },
             enemyBans = {
                 types = {},

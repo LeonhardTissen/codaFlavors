@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Ariamond"},
 			textCharacterSelectionMessage = { text = "Ariamond mode!\nMove diagonally!" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codiago/AriamondClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Codiago/AriamondBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Codiago/AriamondClone.png",
             },
             enemyBans = {
             },

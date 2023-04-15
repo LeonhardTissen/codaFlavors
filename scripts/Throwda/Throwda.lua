@@ -30,6 +30,9 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Throwda"},
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Throwda/ThrowdaClone.png",
+            },
 			textCharacterSelectionMessage = { text = "Throwda mode!\nNo Attack.\nOnly Throw." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

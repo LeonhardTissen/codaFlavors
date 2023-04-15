@@ -13,9 +13,6 @@ customEntities.extend {
         {   
             friendlyName={name="Bombolt"},
 			textCharacterSelectionMessage = { text = "Bombolt mode!\nNo Dagger &\nInstant Bombs" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Bombda/BombdaClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Bombda/BombdaBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Bombda/BombdaClone.png",
             },
             enemyBans = {
                 types = {},

@@ -46,6 +46,9 @@ customEntities.extend {
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Shoveda/ShovedaBody.png",
             },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Shoveda/ShovedaClone.png",
+            },
             initialEquipment={
                 items={"ShovelBasic","CodaFlavors_ShovedaShield","Bomb3","CharmNazar"},
             },

@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Boomia"},
 			textCharacterSelectionMessage = { text = "Boomia mode!\nNo Dagger &\nInstant Bombs" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Bombda/BoomiaClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Bombda/BoomiaBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Bombda/BoomiaClone.png",
             },
             enemyBans = {
                 types = {},

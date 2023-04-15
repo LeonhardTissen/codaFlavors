@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Jumpolt"},
 			textCharacterSelectionMessage = { text = "Jumpolt mode!\nLunging &\nKnockback." },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Lynda/LyndaClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Lynda/LyndaBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Lynda/LyndaClone.png",
             },
             enemyBans = {
                 types = {},

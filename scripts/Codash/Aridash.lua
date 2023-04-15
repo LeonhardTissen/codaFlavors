@@ -13,9 +13,6 @@ customEntities.extend {
         {
             friendlyName={name="Aridash"},
 			textCharacterSelectionMessage = { text = "Aridash mode!\nWeak Dagger &\nInfinite Dash" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/AridashClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -23,6 +20,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Codash/AridashBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Codash/AridashClone.png",
             },
             enemyBans = {
                 types = {},

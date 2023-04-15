@@ -21,6 +21,9 @@ customEntities.extend {
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Throwda/ThrowdaBody.png",
             },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Throwda/ThrowdaClone.png",
+            },
             enemyBans = {
                 types = {},
             },

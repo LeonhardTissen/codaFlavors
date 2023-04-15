@@ -14,9 +14,6 @@ customEntities.extend {
         {
             friendlyName={name="Ariage"},
 			textCharacterSelectionMessage = { text = "Ariage mode!\nCourage by heart!" },
-			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Courda/AriageClone.png",
-            },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
@@ -24,6 +21,9 @@ customEntities.extend {
             },
 			sprite={
                 texture= "mods/CodaFlavors/sprites/Courda/AriageBody.png",
+            },
+            cloneSprite = {
+                texture = "mods/CodaFlavors/sprites/Courda/AriageClone.png",
             },
             initialEquipment={
                 items={"CodaFlavors_CourdaShovel","WeaponDagger","Bomb1","CharmNazar","CodaFlavors_CourdaRing","MiscPotion"},
