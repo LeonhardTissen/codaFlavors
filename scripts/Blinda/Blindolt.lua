@@ -16,13 +16,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Blinda/BlindaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Blinda/BlindoltBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Blinda/BlindaBody.png",
+                texture= "mods/CodaFlavors/sprites/Blinda/BlindoltBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Blinda/BlindaClone.png",
+                texture = "mods/CodaFlavors/sprites/Blinda/BlindoltClone.png",
             },
             enemyBans = {
                 types = {},
@@ -51,7 +51,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Blinda/BlindaHead.png",
+                texture= "mods/CodaFlavors/sprites/Blinda/BlindoltHead.png",
             },
         },
     },
