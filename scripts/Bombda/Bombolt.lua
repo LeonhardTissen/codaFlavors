@@ -16,13 +16,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Bombda/BombdaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Bombda/BomboltBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Bombda/BombdaBody.png",
+                texture= "mods/CodaFlavors/sprites/Bombda/BomboltBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Bombda/BombdaClone.png",
+                texture = "mods/CodaFlavors/sprites/Bombda/BomboltClone.png",
             },
             enemyBans = {
                 types = {},
@@ -67,7 +67,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Bombda/BombdaHead.png",
+                texture= "mods/CodaFlavors/sprites/Bombda/BomboltHead.png",
             },
         },
     },
