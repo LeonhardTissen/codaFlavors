@@ -223,7 +223,7 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 			leftSound = "",
 			hideArrows = true,
 			selected = playerType == typeName,
-			characterExplanation = entity.CodaFlavors_menu.explanation
+			characterExplanation = entity.friendlyName.name .. " (" .. entity.CodaFlavors_menu.explanation .. ")"
 		}
 		if entity.sprite then
 			--x, y = moveEntry(x, y, entity.positionalSprite and entity.positionalSprite)
