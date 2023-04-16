@@ -20,13 +20,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Lynda/LyndaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Lynda/JumpoltBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Lynda/LyndaBody.png",
+                texture= "mods/CodaFlavors/sprites/Lynda/JumpoltBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Lynda/LyndaClone.png",
+                texture = "mods/CodaFlavors/sprites/Lynda/JumpoltClone.png",
             },
             enemyBans = {
                 types = {},
@@ -51,7 +51,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Lynda/LyndaHead.png",
+                texture= "mods/CodaFlavors/sprites/Lynda/JumpoltHead.png",
             },
         },
     },

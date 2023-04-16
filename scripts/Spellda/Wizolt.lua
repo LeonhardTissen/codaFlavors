@@ -19,15 +19,15 @@ customEntities.extend {
             },
 			textCharacterSelectionMessage = { text = "Wizolt mode!\nUse spells only\nto defeat enemies!" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Spellda/SpelldaClone.png",
+                texture = "mods/CodaFlavors/sprites/Spellda/WizoltClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Spellda/SpelldaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Spellda/WizoltBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Spellda/SpelldaBody.png",
+                texture= "mods/CodaFlavors/sprites/Spellda/WizoltBody.png",
             },
             initialEquipment={
                 items={"ShovelBasic","BagHolding","CodaFlavors_SpelldaFireball","CodaFlavors_SpelldaPulse","CodaFlavors_SpelldaFreeze","CodaFlavors_SpelldaCharm","Bomb3","CharmNazar"},
@@ -69,7 +69,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Spellda/SpelldaHead.png",
+                texture= "mods/CodaFlavors/sprites/Spellda/WizoltHead.png",
             },
         },
     },

@@ -20,13 +20,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Codiago/AriamondBestiary.png",
+                image = "mods/CodaFlavors/sprites/Codiago/DiaboltBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codiago/AriamondBody.png",
+                texture= "mods/CodaFlavors/sprites/Codiago/DiaboltBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codiago/AriamondClone.png",
+                texture = "mods/CodaFlavors/sprites/Codiago/DiaboltClone.png",
             },
             enemyBans = {
             },
@@ -68,7 +68,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codiago/AriamondHead.png",
+                texture= "mods/CodaFlavors/sprites/Codiago/DiaboltHead.png",
             },
         },
     },

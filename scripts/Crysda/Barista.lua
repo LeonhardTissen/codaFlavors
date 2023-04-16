@@ -20,13 +20,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Crysda/CrysdaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Crysda/BaristaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Crysda/CrysdaBody.png",
+                texture= "mods/CodaFlavors/sprites/Crysda/BaristaBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Crysda/CrysdaClone.png",
+                texture = "mods/CodaFlavors/sprites/Crysda/BaristaClone.png",
             },
             enemyBans = {
                 types = {"Ghost","Monkey","Monkey2","Mole","Shovemonster","Shovemonster2","Sync_ShockMonkey","Monkey3","Monkey4","GoblinBomber","Sync_CoopThief","Sync_CoopMonkey","Sync_CoopGhost","Sync_CoopSpirit"},
@@ -66,7 +66,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Crysda/CrysdaHead.png",
+                texture= "mods/CodaFlavors/sprites/Crysda/BaristaHead.png",
             },
         },
     },

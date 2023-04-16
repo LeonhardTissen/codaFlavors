@@ -20,13 +20,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Gunda/AriflaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Gunda/ColtBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Gunda/AriflaBody.png",
+                texture= "mods/CodaFlavors/sprites/Gunda/ColtBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Gunda/AriflaClone.png",
+                texture = "mods/CodaFlavors/sprites/Gunda/ColtClone.png",
             },
             enemyBans = {
                 types = {},
@@ -50,7 +50,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Gunda/AriflaHead.png",
+                texture= "mods/CodaFlavors/sprites/Gunda/ColtHead.png",
             },
         },
     },

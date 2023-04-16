@@ -22,13 +22,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Soulda/SouldaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Soulda/SoultBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Soulda/SouldaBody.png",
+                texture= "mods/CodaFlavors/sprites/Soulda/SoultBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Soulda/SouldaClone.png",
+                texture = "mods/CodaFlavors/sprites/Soulda/SoultClone.png",
             },
             enemyBans = {
                 types = {},
@@ -55,7 +55,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Soulda/SouldaHead.png",
+                texture= "mods/CodaFlavors/sprites/Soulda/SoultHead.png",
             },
         },
     },

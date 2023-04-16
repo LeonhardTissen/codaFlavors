@@ -21,13 +21,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Courda/CourdaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Courda/BoldBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Courda/CourdaBody.png",
+                texture= "mods/CodaFlavors/sprites/Courda/BoldBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Courda/CourdaClone.png",
+                texture = "mods/CodaFlavors/sprites/Courda/BoldClone.png",
             },
             initialEquipment={
                 items={"CodaFlavors_CourdaShovel","WeaponSpear","Bomb1","CodaFlavors_CourdaRing"},
@@ -53,7 +53,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Courda/CourdaHead.png",
+                texture= "mods/CodaFlavors/sprites/Courda/BoldHead.png",
             },
         },
     },

@@ -19,15 +19,15 @@ customEntities.extend {
             },
 			textCharacterSelectionMessage = { text = "Boltar mode!\nYou are bloodthirsty!\nDeclare war on your enemies!" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Warda/WardaClone.png",
+                texture = "mods/CodaFlavors/sprites/Warda/BoltarClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Warda/WardaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Warda/BoltarBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Warda/WardaBody.png",
+                texture= "mods/CodaFlavors/sprites/Warda/BoltarBody.png",
             },
             damageCountdown = {
                 damage = 999,
@@ -57,7 +57,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Warda/WardaHead.png",
+                texture= "mods/CodaFlavors/sprites/Warda/BoltarHead.png",
             },
         },
     },

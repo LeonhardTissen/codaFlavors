@@ -19,18 +19,18 @@ customEntities.extend {
             },
 			textCharacterSelectionMessage = { text = "Bush mode!\nCrush enemies obstructing your path!" },
 			cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Shoveda/ShovedaClone.png",
+                texture = "mods/CodaFlavors/sprites/Shoveda/BushClone.png",
             },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Shoveda/ShovedaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Shoveda/BushBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Shoveda/ShovedaBody.png",
+                texture= "mods/CodaFlavors/sprites/Shoveda/BushBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Shoveda/ShovedaClone.png",
+                texture = "mods/CodaFlavors/sprites/Shoveda/BushClone.png",
             },
             initialEquipment={
                 items={"ShovelBasic","CodaFlavors_ShovedaShield","Bomb3"},
@@ -55,7 +55,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Shoveda/ShovedaHead.png",
+                texture= "mods/CodaFlavors/sprites/Shoveda/BushHead.png",
             },
         },
     },
