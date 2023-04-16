@@ -172,7 +172,6 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 	end
 
 	table.sort(entities, function (e1, e2)
-		print(e1.CodaFlavors_menu, e2.CodaFlavors_menu)
 		local lo1, lo2 = e1.CodaFlavors_menu.order, e2.CodaFlavors_menu.order
 		if lo1 ~= lo2 then
 			return lo1 < lo2
@@ -195,8 +194,14 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 			end
 		end
 
-		local x = math.floor(((i - 1) % 9 - 4) * 48)
-		local y = math.floor((i - 1) / 9) * 48
+		local rownum = (i - 1) % 9
+		local x = math.floor((rownum - 4) * 48)
+		if rownum >= 6 then
+			x = x + 20
+		elseif rownum < 3 then
+			x = x - 20
+		end
+		local y = math.floor((i - 1) / 9) * 54
 		local typeName = entity.name
 		entries[#entries + 1] = {
 			id = i,
@@ -218,7 +223,7 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 			leftSound = "",
 			hideArrows = true,
 			selected = playerType == typeName,
-			characterName = entity.CodaFlavors_menu.explanation or entity.friendlyName and entity.friendlyName.name or entity.name or "",
+			characterExplanation = entity.CodaFlavors_menu.explanation
 		}
 		if entity.sprite then
 			--x, y = moveEntry(x, y, entity.positionalSprite and entity.positionalSprite)
@@ -240,7 +245,7 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 
 		entries[#entries + 1] = {
 			label = function ()
-				return (menu.getSelectedEntry() or {}).characterName
+				return (menu.getSelectedEntry() or {}).characterExplanation
 			end,
 			selectable = false,
 		}
@@ -258,7 +263,7 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 	if needStickyFooter then
 		entries[#entries + 1] = {
 			label = function ()
-				return (menu.getSelectedEntry() or {}).characterName
+				return (menu.getSelectedEntry() or {}).characterExplanation
 			end,
 			selectable = false,
 			sticky = true,
