@@ -51,6 +51,7 @@ customEntities.extend {
                     HeadSpikedEars = itemBan.Type.FULL,
                     HeadSunglasses = itemBan.Type.FULL,
                     HeadGlassJaw = itemBan.Type.FULL,
+                    HeadBlastHelm = itemBan.Type.FULL,
                     CharmRisk = itemBan.Type.FULL,
                     CharmStrength = itemBan.Type.FULL,
                     RingMight = itemBan.Type.FULL,
