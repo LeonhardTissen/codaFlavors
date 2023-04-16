@@ -30,6 +30,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Throwda"},
+            CodaFlavors_menu={
+                order = 20,
+                explanation = "Coda with Infinite Throws"
+            },
             cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Throwda/ThrowdaClone.png",
             },

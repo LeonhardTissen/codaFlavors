@@ -13,6 +13,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Bold"},
+            CodaFlavors_menu={
+                order = 122,
+                explanation = "Bolt with Strong Courage"
+            },
 			textCharacterSelectionMessage = { text = "Bold mode!\nCourage by heart!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
@@ -40,7 +44,6 @@ customEntities.extend {
                     RingRegeneration = itemBan.Type.FULL,
                 }
             },
-            CodaFlavors_shovedaCoinSuppress = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Fearless",

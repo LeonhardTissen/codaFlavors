@@ -31,6 +31,10 @@ customEntities.extend {
                     weapon = { 1.5, 2, 3.5, 2, 4.5, 1, 2.5, 2 }
                 }
             },
+            CodaFlavors_menu={
+                order = 100,
+                explanation = "Coda with Souls"
+            },
             friendlyName={name="Soulda"},
 			textCharacterSelectionMessage = { text = "Soulda mode!\nSteal your enemies soul" },
 			playableCharacterUnlockable = false,

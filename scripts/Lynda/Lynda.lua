@@ -30,6 +30,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Lynda"},
+            CodaFlavors_menu={
+                order = 40,
+                explanation = "Coda with Lunging and Knockback"
+            },
 			textCharacterSelectionMessage = { text = "Lynda mode!\nLunging &\nKnockback." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

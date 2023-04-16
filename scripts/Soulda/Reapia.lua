@@ -14,6 +14,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Reapia"},
+            CodaFlavors_menu={
+                order = 101,
+                explanation = "Aria with Souls"
+            },
 			textCharacterSelectionMessage = { text = "Reapia mode!\nSteal your enemies soul" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

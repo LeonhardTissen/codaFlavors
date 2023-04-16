@@ -13,6 +13,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Arigato"},
+            CodaFlavors_menu={
+                order = 21,
+                explanation = "Aria with Infinite Throws"
+            },
 			textCharacterSelectionMessage = { text = "Arigato mode!\nNo Attack.\nOnly Throw." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Ariamond"},
+            CodaFlavors_menu={
+                order = 91,
+                explanation = "Aria + Diamond"
+            },
 			textCharacterSelectionMessage = { text = "Ariamond mode!\nMove diagonally!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

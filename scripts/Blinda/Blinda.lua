@@ -30,6 +30,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Blinda"},
+            CodaFlavors_menu={
+                order = 110,
+                explanation = "Coda but blind"
+            },
 			textCharacterSelectionMessage = { text = "Blinda mode!\nYou cannot see anything at all!\nMove in the crypt with no navigation tools!"},
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

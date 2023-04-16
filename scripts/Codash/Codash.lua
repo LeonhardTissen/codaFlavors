@@ -30,6 +30,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Codash"},
+            CodaFlavors_menu={
+                order = 70,
+                explanation = "Coda with Infinite Dash"
+            },
 			textCharacterSelectionMessage = { text = "Codash mode!\nWeak Dagger &\nInfinite Dash" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

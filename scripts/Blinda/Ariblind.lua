@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Ariblind"},
+            CodaFlavors_menu={
+                order = 111,
+                explanation = "Aria but blind"
+            },
 			textCharacterSelectionMessage = { text = "Blinda mode!\nYou cannot see anything at all!\nMove in the crypt with no navigation tools!"},
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Barista"},
+            CodaFlavors_menu={
+                order = 2,
+                explanation = "Bolt with Crystal Shield"
+            },
 			textCharacterSelectionMessage = { text = "Barista mode!\nWeak Dagger\nReflect incoming attacks!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

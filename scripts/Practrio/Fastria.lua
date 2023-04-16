@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Fastria"},
+            CodaFlavors_menu={
+                order = 1001,
+                explanation = "Aria + Bolt"
+            },
 			textCharacterSelectionMessage = { text = "Fastria mode!\nPractice for Coda\nAria + Bolt" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Practrio/FastriaClone.png",

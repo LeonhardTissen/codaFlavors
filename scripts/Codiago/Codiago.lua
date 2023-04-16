@@ -30,6 +30,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Codiago"},
+            CodaFlavors_menu={
+                order = 90,
+                explanation = "Coda + Diamond"
+            },
 			textCharacterSelectionMessage = { text = "Codiago mode!\nMove diagonally!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

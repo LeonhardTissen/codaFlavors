@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Bonk"},
+            CodaFlavors_menu={
+                order = 1002,
+                explanation = "Bolt + Monk"
+            },
 			textCharacterSelectionMessage = { text = "Bonk mode!\nPractice for Coda\nMonk + Bolt" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Practrio/BonkClone.png",

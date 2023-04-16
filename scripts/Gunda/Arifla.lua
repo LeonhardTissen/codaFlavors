@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Arifla"},
+            CodaFlavors_menu={
+                order = 81,
+                explanation = "Aria with a Gun"
+            },
 			textCharacterSelectionMessage = { text = "Arifla mode!\nNo Dagger.\nOnly Rifle." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

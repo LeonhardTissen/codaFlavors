@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Colt"},
+            CodaFlavors_menu={
+                order = 82,
+                explanation = "Bolt with a Gun"
+            },
 			textCharacterSelectionMessage = { text = "Colt mode!\nNo Dagger.\nOnly Rifle." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

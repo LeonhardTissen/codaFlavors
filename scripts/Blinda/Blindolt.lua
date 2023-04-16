@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Blindolt"},
+            CodaFlavors_menu={
+                order = 112,
+                explanation = "Bolt but blind"
+            },
 			textCharacterSelectionMessage = { text = "Blindolt mode!\nYou cannot see anything at all!\nMove in the crypt with no navigation tools!"},
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

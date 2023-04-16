@@ -30,6 +30,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Gunda"},
+            CodaFlavors_menu={
+                order = 80,
+                explanation = "Coda with a Gun"
+            },
 			textCharacterSelectionMessage = { text = "Gunda mode!\nNo Dagger.\nOnly Rifle." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

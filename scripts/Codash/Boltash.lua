@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Boltash"},
+            CodaFlavors_menu={
+                order = 72,
+                explanation = "Bolt with Infinite Dash"
+            },
 			textCharacterSelectionMessage = { text = "Boltash mode!\nInfinite Dash" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Boomia"},
+            CodaFlavors_menu={
+                order = 61,
+                explanation = "Aria with Bomb Spell"
+            },
 			textCharacterSelectionMessage = { text = "Boomia mode!\nNo Dagger &\nInstant Bombs" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

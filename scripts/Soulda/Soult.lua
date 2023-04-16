@@ -14,6 +14,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Soult"},
+            CodaFlavors_menu={
+                order = 102,
+                explanation = "Bolt with Souls"
+            },
 			textCharacterSelectionMessage = { text = "Soult mode!\nSteal your enemies soul" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

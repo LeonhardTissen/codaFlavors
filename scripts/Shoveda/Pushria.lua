@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Pushria"},
+            CodaFlavors_menu={
+                order = 11,
+                explanation = "Aria with Shove Shield"
+            },
 			textCharacterSelectionMessage = { text = "Pushria mode!\nCrush enemies obstructing your path!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Shoveda/PushriaClone.png",

@@ -31,6 +31,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Courda"},
+            CodaFlavors_menu={
+                order = 120,
+                explanation = "Coda with Strong Courage"
+            },
 			textCharacterSelectionMessage = { text = "Courda mode!\nCourage by heart!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

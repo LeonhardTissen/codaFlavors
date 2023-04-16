@@ -13,6 +13,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Ariage"},
+            CodaFlavors_menu={
+                order = 121,
+                explanation = "Aria with Strong Courage"
+            },
 			textCharacterSelectionMessage = { text = "Ariage mode!\nCourage by heart!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

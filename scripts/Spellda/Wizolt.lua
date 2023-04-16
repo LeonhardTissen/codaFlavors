@@ -13,6 +13,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Wizolt"},
+            CodaFlavors_menu={
+                order = 32,
+                explanation = "Bolt with Only Spells"
+            },
 			textCharacterSelectionMessage = { text = "Wizolt mode!\nUse spells only\nto defeat enemies!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Spellda/SpelldaClone.png",

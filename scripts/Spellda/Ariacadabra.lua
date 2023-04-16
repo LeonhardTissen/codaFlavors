@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Ariacadabra"},
+            CodaFlavors_menu={
+                order = 31,
+                explanation = "Aria with Only Spells"
+            },
 			textCharacterSelectionMessage = { text = "Ariacadabra mode!\nUse spells only\nto defeat enemies!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Spellda/AriacadabraClone.png",

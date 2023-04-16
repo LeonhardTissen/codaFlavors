@@ -30,6 +30,10 @@ customEntities.extend {
                 }
             },
             friendlyName={name="Bombda"},
+            CodaFlavors_menu={
+                order = 60,
+                explanation = "Coda with Bomb Spell"
+            },
 			textCharacterSelectionMessage = { text = "Bombda mode!\nNo Dagger &\nInstant Bombs" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Aristo"},
+            CodaFlavors_menu={
+                order = 1,
+                explanation = "Aria with Crystal Shield"
+            },
 			textCharacterSelectionMessage = { text = "Aristo mode!\nWeak Dagger.\nReflect incoming attacks!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

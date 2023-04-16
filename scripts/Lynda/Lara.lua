@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Lara"},
+            CodaFlavors_menu={
+                order = 41,
+                explanation = "Aria with Lunging and Knockback"
+            },
 			textCharacterSelectionMessage = { text = "Lara mode!\nLunging &\nKnockback." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

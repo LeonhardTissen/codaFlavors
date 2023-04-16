@@ -13,6 +13,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Bush"},
+            CodaFlavors_menu={
+                order = 12,
+                explanation = "Bolt with Shove Shield"
+            },
 			textCharacterSelectionMessage = { text = "Bush mode!\nCrush enemies obstructing your path!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Shoveda/ShovedaClone.png",

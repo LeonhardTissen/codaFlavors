@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Throlt"},
+            CodaFlavors_menu={
+                order = 22,
+                explanation = "Bolt with Infinite Throws"
+            },
 			textCharacterSelectionMessage = { text = "Throlt mode!\nInfinite Throws." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

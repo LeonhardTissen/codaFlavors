@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {   
             friendlyName={name="Bombolt"},
+            CodaFlavors_menu={
+                order = 62,
+                explanation = "Bolt with Bomb Spell"
+            },
 			textCharacterSelectionMessage = { text = "Bombolt mode!\nNo Dagger &\nInstant Bombs" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

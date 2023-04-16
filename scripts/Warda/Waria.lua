@@ -13,6 +13,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Waria"},
+            CodaFlavors_menu={
+                order = 51,
+                explanation = "Aria with War and Tempo"
+            },
 			textCharacterSelectionMessage = { text = "Waria mode!\nYou are bloodthirsty!\nDeclare war on your enemies!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Warda/WariaClone.png",

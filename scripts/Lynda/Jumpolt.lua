@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Jumpolt"},
+            CodaFlavors_menu={
+                order = 42,
+                explanation = "Bolt with Lunging and Knockback"
+            },
 			textCharacterSelectionMessage = { text = "Jumpolt mode!\nLunging &\nKnockback." },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

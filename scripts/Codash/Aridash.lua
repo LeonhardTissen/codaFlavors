@@ -12,6 +12,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Aridash"},
+            CodaFlavors_menu={
+                order = 71,
+                explanation = "Aria with Infinite Dash"
+            },
 			textCharacterSelectionMessage = { text = "Aridash mode!\nWeak Dagger &\nInfinite Dash" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,

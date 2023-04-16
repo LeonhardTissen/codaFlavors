@@ -13,6 +13,10 @@ customEntities.extend {
     components = {
         {
             friendlyName={name="Boltar"},
+            CodaFlavors_menu={
+                order = 52,
+                explanation = "Bolt with War and Tempo"
+            },
 			textCharacterSelectionMessage = { text = "Boltar mode!\nYou are bloodthirsty!\nDeclare war on your enemies!" },
 			cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Warda/WardaClone.png",
