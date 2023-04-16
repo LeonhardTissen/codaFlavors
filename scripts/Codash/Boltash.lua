@@ -16,13 +16,13 @@ customEntities.extend {
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Codash/CodashBestiary.png",
+                image = "mods/CodaFlavors/sprites/Codash/BoltashBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/CodashBody.png",
+                texture= "mods/CodaFlavors/sprites/Codash/BoltashBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Codash/CodashClone.png",
+                texture = "mods/CodaFlavors/sprites/Codash/BoltashClone.png",
             },
             enemyBans = {
                 types = {},
@@ -48,7 +48,7 @@ customEntities.extend {
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Codash/CodashHead.png",
+                texture= "mods/CodaFlavors/sprites/Codash/BoltashHead.png",
             },
         },
     },
