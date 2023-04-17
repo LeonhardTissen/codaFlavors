@@ -35,6 +35,9 @@ customEntities.extend {
                 items={"ShovelBasic","CodaFlavors_WeaponRifle","Bomb","CharmNazar"},
             },
             inventoryCursedSlots = {
+                slots = {
+                    weapon = true
+                }
             },
             inventoryBannedItemTypes = {
                 types = {
