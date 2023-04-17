@@ -36,7 +36,8 @@ customEntities.extend {
             },
             inventoryCursedSlots = {
                 slots = {
-                    spell = true
+                    spell = true,
+                    weapon = true
                 }
             },
             inventoryBannedItemTypes = {
