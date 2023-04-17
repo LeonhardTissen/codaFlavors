@@ -56,7 +56,9 @@ customEntities.extend {
                 SpellFireball = itemBan.Type.FULL,
                 SpellPulse = itemBan.Type.FULL,
                 SpellFreezeEnemies = itemBan.Type.FULL,
-                Sync_SpellCharm = itemBan.Type.FULL
+                Sync_SpellCharm = itemBan.Type.FULL,
+                ScrollEnchantWeapon = itemBan.Type.FULL,
+                BagHolding = itemBan.Type.GENERATION_ALL
                 }
             },
             CodaFlavors_spelldaThrowSlot = {},
