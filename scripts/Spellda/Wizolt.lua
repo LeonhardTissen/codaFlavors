@@ -49,7 +49,6 @@ customEntities.extend {
                     CharmStrength = itemBan.Type.FULL,
                     RingMight = itemBan.Type.FULL,
                     RingPiercing = itemBan.Type.FULL,
-                    RingRegeneration = itemBan.Type.FULL,
                     RingWar = itemBan.Type.FULL,
                     RingFrost = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL,
