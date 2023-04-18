@@ -55,8 +55,12 @@ customEntities.extend {
             }
         },
 		{
-			sprite={
-                texture= "mods/CodaFlavors/sprites/Practrio/BonkHead.png",
+			sprite = {
+                texture= "mods/CodaFlavors/sprites/Practrio/BonkHead.png"
+            },
+            attachmentCopySpritePosition = {
+                offsetX = 0,
+                offsetY = -1,
             },
         },
     },
