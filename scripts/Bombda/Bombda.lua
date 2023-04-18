@@ -83,7 +83,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Kaboom!!!",
-                    version = 0,
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Bombda.png"
                 },
             }
         },

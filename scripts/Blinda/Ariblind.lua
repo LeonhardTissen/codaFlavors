@@ -49,7 +49,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Who are you?",
-                    version = 0,
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Ariblind.png"
                 },
             }
         },

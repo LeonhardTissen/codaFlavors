@@ -67,7 +67,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Where did everybody go!?",
-                    version = 0,
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Blinda.png"
                 },
             }
         },

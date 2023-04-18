@@ -71,7 +71,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "When Push comes to Shove",
-                    version = 0,
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Shoveda.png"
                 },
             }
         },

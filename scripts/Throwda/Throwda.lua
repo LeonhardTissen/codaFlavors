@@ -63,7 +63,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Didn't throw!",
-                    version = 0,
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Throwda.png"
                 },
             }
         },

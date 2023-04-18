@@ -45,7 +45,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Liberating the Dead",
-                    version = 0,
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Reapia.png"
                 },
             },
             spawnSoulOnKill = { soulType = "ReaperSoul" },

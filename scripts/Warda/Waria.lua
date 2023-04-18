@@ -51,7 +51,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Finally at peace",
-                    version = 1,
+                    version = 2,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Waria.png"
                 },
             }
         },

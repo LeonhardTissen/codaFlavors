@@ -65,8 +65,9 @@ customEntities.extend {
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Kaboom!!!",
-                    version = 0,
+                    friendlyName = "Shaboom!!",
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Bombolt.png"
                 },
             }
         },

@@ -63,7 +63,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Soulless",
-                    version = 0,
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Soulda.png"
                 },
             },
             spawnSoulOnKill = { soulType = "ReaperSoul" },

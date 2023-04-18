@@ -51,7 +51,8 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "A genocide? I call it Pest Control",
-                    version = 1,
+                    version = 2,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Warda.png"
                 },
             }
         },
