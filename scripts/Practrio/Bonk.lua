@@ -32,13 +32,19 @@ customEntities.extend {
                 texture = "mods/CodaFlavors/sprites/Practrio/BonkClone.png",
             },
             enemyBans = {
-                types = {},
+                types = {
+                    "Bat2","Bat4"
+                },
             },
             initialEquipment={
                 items={"ShovelBlood","WeaponSpear","Bomb","CharmNazar"},
             },
             rhythmSubdivision = {
                 factor = 2
+            },
+            health = {
+                health = 6,
+                maxHealth = 6
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
