@@ -8,7 +8,7 @@ local inventory = require "necro.game.item.Inventory"
 local map = require "necro.game.object.Map"
 
 customEntities.extend {
-    name="Courda",
+    name="Suda",
     template=customEntities.template.player(7),
     components = {
         {
@@ -30,29 +30,28 @@ customEntities.extend {
                     weapon = { 1.5, 2, 3.5, 2, 4.5, 1, 2.5, 2 }
                 }
             },
-            friendlyName={name="Courda"},
+            friendlyName={name="Suda"},
             CodaFlavors_menu={
-                order = 120,
-                explanation = "Coda with Strong Courage"
+                order = 130,
+                explanation = "Coda with Suzu Dash"
             },
-			textCharacterSelectionMessage = { text = "Courda mode!\nCourage by heart!" },
+			textCharacterSelectionMessage = { text = "Suda mode!\nPower of Suzu!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Courda/CourdaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Suda/SudaBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Courda/CourdaBody.png",
+                texture= "mods/CodaFlavors/sprites/Suda/SudaBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Courda/CourdaClone.png",
+                texture = "mods/CodaFlavors/sprites/Suda/SudaClone.png",
             },
             initialEquipment={
-                items={"CodaFlavors_CourdaShovel","WeaponDagger","Bomb","CharmNazar","CodaFlavors_CourdaRing"},
+                items={"ShovelBasic","Sync_WeaponLance","Bomb","CharmNazar"},
             },
             inventoryCursedSlots = {
                 slots = {
-                    shovel = true;
                 }
             },
             inventoryBannedItemTypes = {
@@ -63,15 +62,15 @@ customEntities.extend {
             CodaFlavors_shovedaCoinSuppress = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Fearless",
+                    friendlyName = "Through and Through",
                     version = 1,
-                    icon = "mods/CodaFlavors/sprites/Achievements/Courda.png"
+                    icon = "mods/CodaFlavors/sprites/Achievements/Suda.png"
                 },
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Courda/CourdaHead.png",
+                texture= "mods/CodaFlavors/sprites/Suda/SudaHead.png",
             },
         },
     },

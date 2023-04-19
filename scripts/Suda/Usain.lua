@@ -8,8 +8,8 @@ local inventory = require "necro.game.item.Inventory"
 local map = require "necro.game.object.Map"
 
 customEntities.extend {
-    name="Courda",
-    template=customEntities.template.player(7),
+    name="Usain",
+    template=customEntities.template.player(8),
     components = {
         {
             DynChar_dynamicCharacter = {
@@ -30,48 +30,45 @@ customEntities.extend {
                     weapon = { 1.5, 2, 3.5, 2, 4.5, 1, 2.5, 2 }
                 }
             },
-            friendlyName={name="Courda"},
+            friendlyName={name="Usain"},
             CodaFlavors_menu={
-                order = 120,
-                explanation = "Coda with Strong Courage"
+                order = 132,
+                explanation = "Bolt with Suzu Dash"
             },
-			textCharacterSelectionMessage = { text = "Courda mode!\nCourage by heart!" },
+			textCharacterSelectionMessage = { text = "Usain mode!\nPower of Suzu!" },
 			playableCharacterUnlockable = false,
 			playableCharacterUnlockOnRunCompletion = false,
 			bestiary = {
-                image = "mods/CodaFlavors/sprites/Courda/CourdaBestiary.png",
+                image = "mods/CodaFlavors/sprites/Suda/UsainBestiary.png",
             },
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Courda/CourdaBody.png",
+                texture= "mods/CodaFlavors/sprites/Suda/UsainBody.png",
             },
             cloneSprite = {
-                texture = "mods/CodaFlavors/sprites/Courda/CourdaClone.png",
+                texture = "mods/CodaFlavors/sprites/Suda/UsainClone.png",
             },
             initialEquipment={
-                items={"CodaFlavors_CourdaShovel","WeaponDagger","Bomb","CharmNazar","CodaFlavors_CourdaRing"},
+                items={"ShovelBasic","Sync_WeaponLance","Bomb"},
             },
             inventoryCursedSlots = {
                 slots = {
-                    shovel = true;
                 }
             },
             inventoryBannedItemTypes = {
                 types = {
-                    RingRegeneration = itemBan.Type.FULL,
                 }
             },
-            CodaFlavors_shovedaCoinSuppress = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Fearless",
+                    friendlyName = "Greatest Sprint",
                     version = 1,
-                    icon = "mods/CodaFlavors/sprites/Achievements/Courda.png"
+                    icon = "mods/CodaFlavors/sprites/Achievements/Usain.png"
                 },
             }
         },
 		{
 			sprite={
-                texture= "mods/CodaFlavors/sprites/Courda/CourdaHead.png",
+                texture= "mods/CodaFlavors/sprites/Suda/UsainHead.png",
             },
         },
     },

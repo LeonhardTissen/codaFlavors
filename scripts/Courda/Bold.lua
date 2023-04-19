@@ -30,7 +30,7 @@ customEntities.extend {
                 texture = "mods/CodaFlavors/sprites/Courda/BoldClone.png",
             },
             initialEquipment={
-                items={"CodaFlavors_CourdaShovel","WeaponSpear","Bomb1","CodaFlavors_CourdaRing"},
+                items={"CodaFlavors_CourdaShovel","WeaponSpear","Bomb","CodaFlavors_CourdaRing"},
             },
             inventoryCursedSlots = {
                 slots = {
@@ -39,9 +39,6 @@ customEntities.extend {
             },
             inventoryBannedItemTypes = {
                 types = {
-                    RingMight = itemBan.Type.FULL,
-                    RingPiercing = itemBan.Type.FULL,
-                    RingRegeneration = itemBan.Type.FULL,
                 }
             },
             InGameAchievements_allZonesAchievement = {

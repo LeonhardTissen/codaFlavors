@@ -1,6 +1,6 @@
 <img src="logo/CodaFlavorsTextHorizontal.png">
 
-### A whole new world of Coda with a hint of Aria and Bolt. Adds 42 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
+### A whole new world of Coda with a hint of Aria and Bolt. Adds 45 new Characters to Crypt of the Necrodancer offering wacky gameplay twists and challenges. In collaboration with Sebseb2222#6463. Banner by Ataraxia#7714.
 
 <img src="logo/CodaFlavorsBannerScaled.png">
 
@@ -19,4 +19,5 @@
 | Steal your enemies soul!                           | Reapia <br/> <img src="previews/reapia.png">           | Soulda <br/> <img src="previews/soulda.png">   | Soult <br/> <img src="previews/soult.png">       |
 | You cannot see anything at all!                    | Ariblind <br/> <img src="previews/ariblind.png">       | Blinda <br/> <img src="previews/blinda.png">   | Blindolt <br/> <img src="previews/blindolt.png"> |
 | Courage by heart!                                  | Ariage <br/> <img src="previews/ariage.png">           | Courda <br/> <img src="previews/courda.png">   | Bold <br/> <img src="previews/bold.png">         |
+| Power of Suzu!                                     | Suria <br/>                                            | Suda <br/>                                     | Usain <br/>                                      |
 | Practice individual parts of Coda!                 | Fastria <br/> <img src="previews/fastria.png">         | Slowda <br/> <img src="previews/slowda.png">   | Bonk <br/> <img src="previews/bonk.png">         |
