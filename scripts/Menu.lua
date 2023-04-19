@@ -261,7 +261,6 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 		local rownum = (i - 1) % 3
 		local x = math.floor((rownum - 5.5) * 48) + rownum * 48 * 3
 		local y = math.floor((i - 1) / 3) * 54
-		print(i)
 
 		entries[#entries + 1] = getSpecialIcon("mods/CodaFlavors/sprites/Icons/" .. icons[i + 1] .. ".png", x, y, i)
 	end
