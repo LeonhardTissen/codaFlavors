@@ -137,7 +137,7 @@ local function getIcon(entity, i)
 			imageRect = {sprite.textureShiftX, sprite.textureShiftY, sprite.width, sprite.height},
 			width = sprite.width,
 			height = sprite.height,
-			color = color.hsv(0, 0, (menu.getSelectedID() == i) and 1 or 0.4),
+			color = color.hsv(0, 0, (menu.getSelectedID() == i) and 1 or 0.5),
 		}
 	end
 end
@@ -149,6 +149,21 @@ local function getEntry(entity, x, y, i)
 		icon = getIcon(entity, i),
 		selectableIf = function () end,
 		action = function () end,
+	}
+end
+
+local function getSpecialIcon(spritepath, x, y, i)
+	return {
+		x = x,
+		y = y,
+		icon = {
+			image = spritepath,
+			imageRect = {0, 0, 24, 24},
+			width = 24,
+			height = 24,
+			color = color.hsv(0, 0, 1),
+		},
+		selectable = false
 	}
 end
 
@@ -195,13 +210,9 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 		end
 
 		local rownum = (i - 1) % 9
-		local x = math.floor((rownum - 4) * 48)
-		if rownum >= 6 then
-			x = x + 20
-		elseif rownum < 3 then
-			x = x - 20
-		end
+		local x = math.floor((rownum - 5.5) * 48) + (math.floor(rownum / 3) + 1) * 48
 		local y = math.floor((i - 1) / 9) * 54
+
 		local typeName = entity.name
 		entries[#entries + 1] = {
 			id = i,
@@ -230,11 +241,29 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 			entries[#entries + 1] = getEntry(entity, x, y, i)
 		end
 		local head = entity.characterWithAttachment
-			and ecs.getEntityPrototype(entity.characterWithAttachment.attachmentType)
+		and ecs.getEntityPrototype(entity.characterWithAttachment.attachmentType)
 		if head and head.sprite then
 			x, y = moveEntry(x, y, head.attachmentCopySpritePosition and head.attachmentCopySpritePosition)
 			entries[#entries + 1] = getEntry(head, x, y, i)
 		end
+	end
+
+	local icons = {
+		0, 
+		"Crystal", "Shove", "Throw",
+		"Spell", "Lunge", "War",
+		"Bomb", "Dash", "Rifle",
+		"Diamond", "Soul", "Darkness",
+		"Courage", "Lance", "Learn"
+	}
+	for i = 0,15,1
+	do
+		local rownum = (i - 1) % 3
+		local x = math.floor((rownum - 5.5) * 48) + rownum * 48 * 3
+		local y = math.floor((i - 1) / 3) * 54
+		print(i)
+
+		entries[#entries + 1] = getSpecialIcon("mods/CodaFlavors/sprites/Icons/" .. icons[i + 1] .. ".png", x, y, i)
 	end
 
 	local footerY = gfx.getHeight() - 100
