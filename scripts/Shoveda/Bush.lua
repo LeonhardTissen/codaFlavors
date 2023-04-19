@@ -35,6 +35,9 @@ customEntities.extend {
             initialEquipment={
                 items={"ShovelBasic","CodaFlavors_ShovedaShield","Bomb3"},
             },
+            enemyBans = {
+                types = {"Wight","Ghoul","Ghast"},
+            },
             inventoryCursedSlots = {
                 slots = {
                     shield = true;
