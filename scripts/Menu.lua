@@ -162,8 +162,7 @@ local function getSpecialIcon(spritepath, x, y, i)
 			width = 24,
 			height = 24,
 			color = color.hsv(0, 0, 1),
-		},
-		selectable = false
+		}
 	}
 end
 
