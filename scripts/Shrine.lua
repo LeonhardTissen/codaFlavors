@@ -14,7 +14,7 @@ local _groups = {
 	-- BOOK PAGE TURNED
 	codaShrineSound = {
 		sounds = { 
-			"mods/CodaFlavors/sprites/CodaShrineSound.ogg"
+			"mods/CodaFlavors/sprites/sfx_CodaShrineSound.ogg"
 		},
 		volume = 1,
 		delay = 0
