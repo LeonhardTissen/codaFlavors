@@ -59,8 +59,11 @@ customEntities.extend {
                     RingRegeneration = itemBan.Type.FULL,
                     RingWar = itemBan.Type.FULL,
                     RingFrost = itemBan.Type.FULL,
+                    RingPain = itemBan.Type.FULL,
+                    RingCourage = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL,
                     SpellBomb = itemBan.Type.FULL,
+                    ScrollEnchantWeapon = itemBan.Type.FULL,
                 }
             },
             InGameAchievements_allZonesAchievement = {

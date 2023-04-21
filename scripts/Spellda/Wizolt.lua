@@ -51,6 +51,8 @@ customEntities.extend {
                     RingPiercing = itemBan.Type.FULL,
                     RingWar = itemBan.Type.FULL,
                     RingFrost = itemBan.Type.FULL,
+                    RingCourage = itemBan.Type.FULL,
+                    RingPain = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL,
                     SpellFireball = itemBan.Type.FULL,
                     SpellPulse = itemBan.Type.FULL,
@@ -58,7 +60,8 @@ customEntities.extend {
                     Sync_SpellCharm = itemBan.Type.FULL,
                     ScrollEnchantWeapon = itemBan.Type.FULL,
                     BagHolding = itemBan.Type.GENERATION_ALL,
-                    Holster = itemBan.Type.FULL
+                    Holster = itemBan.Type.FULL,
+                    HudBackpack = itemBan.Type.FULL
                 }
             },
             CodaFlavors_spelldaThrowSlot = {},
