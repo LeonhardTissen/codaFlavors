@@ -35,9 +35,6 @@ customEntities.extend {
                 items={"ShovelBasic","CodaFlavors_WeaponThrowda","Bomb","CodaFlavors_CharmInfiniteThrowing"},
             },
             inventoryCursedSlots = {
-                slots = {
-                    weapon = true;
-                }
             },
             inventoryBannedItemTypes = {
                 types = {
@@ -45,6 +42,8 @@ customEntities.extend {
                 }
             },
             shrineBanWeaponlocked = {
+            },
+            itemBanWeaponlocked = {
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
