@@ -23,6 +23,7 @@ local color = require "system.utils.Color"
 local gfx = require "system.gfx.GFX"
 local utils = require "system.utils.Utilities"
 
+-- Component on all Coda Flavors characters defining the menu position and explanation
 components.register {
     CodaFlavors_menu = {
 		components.field.int("order", -1),
@@ -247,21 +248,22 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 		end
 	end
 
+	-- Add Icon next to character trio
 	local icons = {
-		0, 
 		"Crystal", "Shove", "Throw",
 		"Spell", "Lunge", "War",
 		"Bomb", "Dash", "Rifle",
 		"Diamond", "Soul", "Darkness",
 		"Courage", "Lance", "Learn"
 	}
-	for i = 0,15,1
+	for i = 1,15,1
 	do
 		local rownum = (i - 1) % 3
 		local x = math.floor((rownum - 5.5) * 48) + rownum * 48 * 3
 		local y = math.floor((i - 1) / 3) * 54
 
-		entries[#entries + 1] = getSpecialIcon("mods/CodaFlavors/sprites/Icons/" .. icons[i + 1] .. ".png", x, y, i)
+		print(i, icons)
+		entries[#entries + 1] = getSpecialIcon("mods/CodaFlavors/sprites/Icons/" .. icons[i] .. ".png", x, y, i)
 	end
 
 	local footerY = gfx.getHeight() - 100

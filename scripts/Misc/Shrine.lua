@@ -14,7 +14,7 @@ local _groups = {
 	-- BOOK PAGE TURNED
 	codaShrineSound = {
 		sounds = { 
-			"mods/CodaFlavors/sprites/sfx_CodaShrineSound.ogg"
+			"mods/CodaFlavors/sprites/Misc/sfx_CodaShrineSound.ogg"
 		},
 		volume = 1,
 		delay = 0
@@ -38,7 +38,7 @@ customEntities.extend { --Shrine entity.
 		editorHidden = {}, --Not found in Level Editor.
 		-- Sprite
 		sprite = {
-			texture = "mods/CodaFlavors/sprites/CodaShrine.png",
+			texture = "mods/CodaFlavors/sprites/Misc/CodaShrine.png",
 		},
 		shadow = { visible = false },
 	},
