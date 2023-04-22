@@ -54,7 +54,9 @@ customEntities.extend {
                     ArmorLeather = itemBan.Type.FULL,
                     ArmorObsidian = itemBan.Type.FULL,
                     ArmorPlatemail = itemBan.Type.FULL,
-                    ArmorQuartz = itemBan.Type.FULL
+                    ArmorQuartz = itemBan.Type.FULL,
+                    Sync_CharmThrowing = itemBan.Type.FULL,
+                    RingMana = itemBan.Type.FULL
                 }
             },
             actionRemap = {},

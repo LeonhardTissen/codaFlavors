@@ -48,7 +48,8 @@ customEntities.extend {
             },
             inventoryBannedItems = {
                 types = {
-                    Sync_CharmThrowing = itemBan.Type.FULL
+                    Sync_CharmThrowing = itemBan.Type.FULL,
+                    RingMana = itemBan.Type.FULL
                 }
             },
             actionRemap = {},
