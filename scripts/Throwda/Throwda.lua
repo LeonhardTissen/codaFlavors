@@ -58,7 +58,7 @@ customEntities.extend {
                 types = {
                     RingPiercing = itemBan.Type.FULL,
                     Sync_CharmThrowing = itemBan.Type.FULL,
-                    CodaFlavors_CharmInfiniteThrowing = itemBan.Flag.LOSS_SCATTER
+                    CodaFlavors_CharmInfiniteThrowing = itemBan.Type.LOSS_ALL
                 }
             },
             InGameAchievements_allZonesAchievement = {

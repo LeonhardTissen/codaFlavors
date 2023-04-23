@@ -48,7 +48,7 @@ customEntities.extend {
             },
             inventoryBannedItemTypes = {
                 types = {
-                    CodaFlavors_RingWarda = itemBan.Flag.LOSS_SCATTER
+                    CodaFlavors_RingWarda = itemBan.Type.LOSS_ALL
                 }
             },
             InGameAchievements_allZonesAchievement = {
