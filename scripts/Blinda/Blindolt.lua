@@ -43,7 +43,8 @@ customEntities.extend {
                 types = {
                     MiscCompass = itemBan.Type.FULL,
                     MiscMap = itemBan.Type.FULL,
-                    HeadCircletTelepathy = itemBan.Type.FULL
+                    HeadCircletTelepathy = itemBan.Type.FULL,
+                    CodaFlavors_BlindaRing = itemBan.Flag.LOSS_SCATTER
                 }
             },
             InGameAchievements_allZonesAchievement = {

@@ -39,7 +39,7 @@ customEntities.extend {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","WeaponDagger","RingWar","Food1","Bomb","Sync_CharmThrowing","Torch","MiscPotion"},
+                items={"ShovelBasic","WeaponDagger","CodaFlavors_RingWarda","Food1","Bomb","Sync_CharmThrowing","Torch","MiscPotion"},
             },
             inventoryCursedSlots = {
                 slots = {
@@ -47,6 +47,9 @@ customEntities.extend {
                 }
             },
             inventoryBannedItemTypes = {
+                types = {
+                    CodaFlavors_RingWarda = itemBan.Flag.LOSS_SCATTER
+                }
             },
             InGameAchievements_allZonesAchievement = {
                 data = {

@@ -41,7 +41,8 @@ customEntities.extend {
             inventoryBannedItemTypes = {
                 types = {
                     RingPiercing = itemBan.Type.FULL,
-                    Sync_CharmThrowing = itemBan.Type.FULL
+                    Sync_CharmThrowing = itemBan.Type.FULL,
+                    CodaFlavors_CharmInfiniteThrowing = itemBan.Flag.LOSS_SCATTER
                 }
             },
             InGameAchievements_allZonesAchievement = {

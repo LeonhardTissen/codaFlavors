@@ -39,7 +39,7 @@ customEntities.extend {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","WeaponSpear","RingWar","Food1","Bomb","Sync_CharmThrowing","Torch",},
+                items={"ShovelBasic","WeaponSpear","CodaFlavors_RingWarda","Food1","Bomb","Sync_CharmThrowing","Torch",},
             },
             inventoryCursedSlots = {
                 slots = {
@@ -47,6 +47,9 @@ customEntities.extend {
                 }
             },
             inventoryBannedItemTypes = {
+                types = {
+                    CodaFlavors_RingWarda = itemBan.Flag.LOSS_SCATTER
+                }
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
@@ -63,3 +66,7 @@ customEntities.extend {
         },
     },
 }
+
+event.entitySchemaLoadNamedEntity.add("sdafdas", {key="RingWar"}, function(ev)
+    print(ev.entity)
+end)

@@ -34,19 +34,21 @@ customEntities.extend {
                 type = damage.Type.SUICIDE,
                 countdownReset = 33,
                 killerName = "Warda's Curse (Tempo)"
-              },
+            },
             enemyBans = {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelBasic","WeaponDagger","RingWar","Food1","Bomb","Sync_CharmThrowing","Torch",},
+                items={"ShovelBasic","WeaponDagger","CodaFlavors_RingWarda","Food1","Bomb","Sync_CharmThrowing","Torch",},
             },
             inventoryCursedSlots = {
                 slots = {
-                    ring = true;
                 }
             },
             inventoryBannedItemTypes = {
+                types = {
+                    CodaFlavors_RingWarda = itemBan.Flag.LOSS_SCATTER
+                }
             },
             InGameAchievements_allZonesAchievement = {
                 data = {

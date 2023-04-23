@@ -39,6 +39,7 @@ customEntities.extend {
             },
             inventoryBannedItemTypes = {
                 types = {
+                    ScrollEnchantWeapon = itemBan.Type.FULL,
                 }
             },
             InGameAchievements_allZonesAchievement = {
