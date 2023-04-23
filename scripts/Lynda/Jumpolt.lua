@@ -42,9 +42,10 @@ customEntities.extend {
             },
             inventoryBannedItemTypes = {
                 types = {
-                    ScrollEnchantWeapon = itemBan.Type.FULL,
                 }
             },
+            itemBanWeaponlocked = {},
+            shrineBanWeaponlocked = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Who's the harpy now?",

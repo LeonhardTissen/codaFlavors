@@ -40,6 +40,8 @@ customEntities.extend {
                     weapon = true;
                 }
             },
+            itemBanWeaponlocked = {},
+            shrineBanWeaponlocked = {},
             inventoryBannedItemTypes = {
                 types = {
                     ArmorGi = itemBan.Type.FULL,

@@ -39,6 +39,8 @@ customEntities.extend {
                     weapon = true
                 }
             },
+            itemBanWeaponlocked = {},
+            shrineBanWeaponlocked = {},
             inventoryBannedItemTypes = {
                 types = {
                     RingPiercing = itemBan.Type.FULL

@@ -57,12 +57,13 @@ customEntities.extend {
                     SpellPulse = itemBan.Type.FULL,
                     SpellFreezeEnemies = itemBan.Type.FULL,
                     Sync_SpellCharm = itemBan.Type.FULL,
-                    ScrollEnchantWeapon = itemBan.Type.FULL,
                     BagHolding = itemBan.Type.GENERATION_ALL,
                     Holster = itemBan.Type.FULL,
                     HudBackpack = itemBan.Type.FULL
                 }
             },
+            itemBanWeaponlocked = {},
+            shrineBanWeaponlocked = {},
             traitStoryBosses = {
                 bosses = {}
             },

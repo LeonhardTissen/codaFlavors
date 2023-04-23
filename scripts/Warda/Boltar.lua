@@ -51,6 +51,8 @@ customEntities.extend {
                     CodaFlavors_RingWarda = itemBan.Flag.LOSS_SCATTER
                 }
             },
+            itemBanWeaponlocked = {},
+            shrineBanWeaponlocked = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Thunderous Rampage",

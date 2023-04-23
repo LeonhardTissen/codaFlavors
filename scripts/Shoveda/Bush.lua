@@ -49,6 +49,8 @@ customEntities.extend {
                     RingPiercing = itemBan.Type.FULL
                 }
             },
+            itemBanWeaponlocked = {},
+            shrineBanWeaponlocked = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "'Scuse me, coming through!",
