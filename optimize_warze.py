@@ -2,9 +2,6 @@ import os
 from PIL import Image, ImageDraw
 
 directory = '/home/warze/.local/share/NecroDancer/mods/CodaFlavors'
-custom_directory = input(f'Enter directory of your Live Mod Folder (Leave empty to default to {directory})')
-if custom_directory != '':
-    directory = custom_directory
 
 # All of the Bolt likes and Bonk are ignored due to them being able to wear all armor
 not_optimized = [
@@ -51,3 +48,4 @@ for folder in os.walk(directory + '/sprites'):
 
                 # Save the image
                 im.save(path, "PNG", optimize = True)
+                print("Done optimizing " + path)

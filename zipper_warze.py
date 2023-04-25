@@ -3,9 +3,6 @@ import zipfile
 import json
 
 directory = '/home/warze/.local/share/NecroDancer/mods/CodaFlavors'
-custom_directory = input(f'Enter directory of your Live Mod Folder (Leave empty to default to {directory})')
-if custom_directory != '':
-    directory = custom_directory
 
 version = input('Enter version: ')
 
