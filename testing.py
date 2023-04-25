@@ -1,9 +1,10 @@
 import json, sys
 
-if len(sys.argv) != 2:
-    print("No path specified")
+if len(sys.argv) != 3:
+    print("No path and username specified")
     exit()
 directory = sys.argv[1]
+username = sys.argv[2]
 
 # mod.json object
 mod_json_obj = {
@@ -12,7 +13,7 @@ mod_json_obj = {
 	"version": "1.0.0",
 	"synchronyVersion": "3.6.1",
 	"description": "A whole new world of Coda with a hint of Aria. (TESTING VERSION)\n",
-	"author": "Sebseb2222",
+	"author": username,
 	"dependencies": {},
 	"api": {"scriptPath":""},
 	"icon": "logo/CodaFlavorsIcon.png",
