@@ -1,7 +1,11 @@
 import os
+import sys
 from PIL import Image, ImageDraw
 
-directory = '/home/warze/.local/share/NecroDancer/mods/CodaFlavors'
+if len(sys.argv) != 2:
+    print("No path specified")
+    exit()
+directory = sys.argv[1]
 
 # All of the Bolt likes and Bonk are ignored due to them being able to wear all armor
 not_optimized = [
@@ -19,7 +23,9 @@ not_optimized = [
     "Bold",
     "Barista",
     "Usain",
-    "Bush"
+    "Bush",
+    "Achievements",
+    "Icons"
 ]
 
 for folder in os.walk(directory + '/sprites'):
@@ -45,7 +51,7 @@ for folder in os.walk(directory + '/sprites'):
                     # Paste the rectangle on each lines
                     for line in deleted_lines:
                         im.paste(rect, (0, line * height))
-
-                # Save the image
-                im.save(path, "PNG", optimize = True)
-                print("Done optimizing " + path)
+                    
+                    # Save the image
+                    im.save(path, "PNG", optimize = True)
+                    print("Done optimizing " + path.replace(directory, '~'))

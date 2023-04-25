@@ -1,8 +1,9 @@
-import os
-import zipfile
-import json
+import os, zipfile, json, sys
 
-directory = '/home/warze/.local/share/NecroDancer/mods/CodaFlavors'
+if len(sys.argv) != 2:
+    print("No path specified")
+    exit()
+directory = sys.argv[1]
 
 version = input('Enter version: ')
 
