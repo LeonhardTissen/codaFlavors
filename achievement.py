@@ -8,9 +8,6 @@ custom_directory = input(f'Enter directory of your GitHub (Leave empty to defaul
 if custom_directory != '':
     directory = custom_directory
 
-print(directory)
-exit()
-
 path = directory + '/preview_scr/'
 exitpath = directory + '/sprites/Achievements/'
 
@@ -34,6 +31,7 @@ characters.remove('Aria')
 characters.remove('Bolt')
 characters.remove('Coda')
 
+print(characters)
 for character in characters:
     img = Image.open(directory + '/sprites/Achievements/0.png')
 
@@ -60,3 +58,4 @@ for character in characters:
                 img.putpixel((x + xoffset, y + yoffset), bodydata)
             
     img.save(exitpath + character + '.png')
+    print("Done with " +  character)
