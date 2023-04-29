@@ -47,7 +47,7 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Greatest Sprint",
-                    version = 1,
+                    version = 2,
                     icon = "mods/CodaFlavors/sprites/Achievements/Usain.png"
                 },
             }

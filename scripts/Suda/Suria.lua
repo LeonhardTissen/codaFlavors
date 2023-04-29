@@ -45,7 +45,7 @@ customEntities.extend {
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Dashing Performance",
-                    version = 2,
+                    version = 3,
                     icon = "mods/CodaFlavors/sprites/Achievements/Suria.png"
                 },
             }
