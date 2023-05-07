@@ -8,7 +8,7 @@ local inventory = require "necro.game.item.Inventory"
 
 customEntities.extend {
     name="Diabolt",
-    template=customEntities.template.player(8),
+    template=customEntities.template.player(11),
     components = {
         {
             friendlyName={name="Diabolt"},
@@ -33,33 +33,19 @@ customEntities.extend {
             initialEquipment={
                 items={"ShovelBasic","WeaponSpear","Bomb","Torch1"},
             },
-            actionFilter = {
-                ignoreActions = {
-                    [10] = true,
-                    [12] = true,
-                    [13] = true,
-                    [14] = true
-                }
-            },
-            hudHideSlots = {
-                hidden = {
-                    [12] = true
-                }
+            rhythmSubdivision = {
+                factor = 2
             },
             inventoryBannedItems = {
                 types = {
-                    Sync_CharmThrowing = itemBan.Type.FULL,
-                    RingMana = itemBan.Type.FULL
                 }
             },
             actionRemap = {},
             inventoryCursedSlots = {
                 slots = {
-                    weapon = true,
-                    hud = true,
-                    spell = true
                 }
             },
+            itemBanDiamond = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Diabolical",
