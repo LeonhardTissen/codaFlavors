@@ -32,7 +32,7 @@ customEntities.extend {
             },
             friendlyName={name="Peaceda"},
             CodaFlavors_menu={
-                order = 10,
+                order = 46,
                 explanation = "Coda with Peace"
             },
 			textCharacterSelectionMessage = { text = "Peaceda mode!\n Spread love, not war!" },
@@ -74,7 +74,7 @@ customEntities.extend {
             },
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Broken heart restored!",
+                    friendlyName = "Blooming Elegance",
                     version = 1,
                     icon = "mods/CodaFlavors/sprites/Achievements/Peaceda.png"
                 },
