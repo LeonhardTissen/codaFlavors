@@ -50,6 +50,7 @@ customEntities.extend {
                   shrineBanWeaponlocked = 4169217
                 }
             },
+            bypassStairLock = {},
             noNeedDamage = {},
             teleportingBombs = {},
             traitBannedSecretRooms = {
@@ -82,6 +83,6 @@ customEntities.extend {
     },
 }
 }
-event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Dove"}, function(ev)
+event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Coda"}, function(ev)
     print(ev.entity)
 end)
