@@ -68,7 +68,3 @@ customEntities.extend {
         },
     },
 }
-
-event.entitySchemaLoadNamedEntity.add("sdafdas", {key="RingWar"}, function(ev)
-    print(ev.entity)
-end)

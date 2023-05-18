@@ -8,7 +8,7 @@ local inventory = require "necro.game.item.Inventory"
 
 customEntities.extend {
     name="Polt",
-    template=customEntities.template.player(6),
+    template=customEntities.template.player(8),
     components = {
         {
             friendlyName={name="Polt"},
@@ -29,25 +29,50 @@ customEntities.extend {
                 texture = "mods/CodaFlavors/sprites/Peaceda/PoltClone.png",
             },
             enemyBans = {
-                types = {"Bat2","Bat4"},
+                types = {"Harpy","Monkey","Monkey2","Monkey3","Monkey4","Sync_ShockMonkey"},
             },
             initialEquipment={
                 items={"ShovelCrystal","WeaponFlower","Bomb","CharmNazar","RingPeace"},
             },
             inventoryCursedSlots = {
+                slots = {
+                    weapon = true
+                }
             },
-            inventoryBannedItemTypes = {
-                types = {}
+            inventoryBannedItems = {
+                components = {
+                  itemBanNoDamage = 2916352,
+                  itemBanPacifist = 4169217,
+                  itemBanShoplifter = 2916352,
+                  itemBanWeaponlocked = 4169217,
+                  shovel = 2916352,
+                  shrineBanPacifist = 4169217,
+                  shrineBanWeaponlocked = 4169217
+                }
             },
+            noNeedDamage = {},
+            teleportingBombs = {},
+            traitBannedSecretRooms = {
+                types = {
+                  [2] = true
+                }
+            },
+            traitRemoveEnemies = {
+                count = 3
+            },
+            traitSkipBosses = {},
+            traitSmallerShops = {},
+            traitInnatePeace = {},
+            songEndCast = {
+              spell = "SpellcastSuicide"
+            },
+            shoplifter = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Thunderstruck",
                     version = 1,
                     icon = "mods/CodaFlavors/sprites/Achievements/Polt.png"
                 },
-            },
-            rhythmSubdivision = {
-                factor = 2
             },
 		{
 			sprite={
@@ -57,3 +82,6 @@ customEntities.extend {
     },
 }
 }
+event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Dove"}, function(ev)
+    print(ev.entity)
+end)

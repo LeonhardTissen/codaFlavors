@@ -50,28 +50,52 @@ customEntities.extend {
             cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Peaceda/PeacedaClone.png",
             },
+            enemyBans = {
+                types = {"Harpy","Monkey","Monkey2","Monkey3","Monkey4","Sync_ShockMonkey"},
+            },
             initialEquipment={
-                items={"ShovelCrystal","WeaponFlower","CharmNazar","RingPeace"},
+                items={"ShovelCrystal","WeaponFlower","Bomb","CharmNazar","RingPeace"},
             },
             inventoryCursedSlots = {
                 slots = {
+                    weapon = true
                 }
             },
-            inventoryBannedItemTypes = {
+            inventoryBannedItems = {
+                components = {
+                  itemBanNoDamage = 2916352,
+                  itemBanPacifist = 4169217,
+                  itemBanShoplifter = 2916352,
+                  itemBanWeaponlocked = 4169217,
+                  shovel = 2916352,
+                  shrineBanPacifist = 4169217,
+                  shrineBanWeaponlocked = 4169217
+                }
+            },
+            InGameAchievements_allZonesAchievement = {
+                data = {
+                    friendlyName = "Thunderstruck",
+                    version = 1,
+                    icon = "mods/CodaFlavors/sprites/Achievements/Polt.png"
+                },
+            },
+            noNeedDamage = {},
+            teleportingBombs = {},
+            traitBannedSecretRooms = {
                 types = {
-                    RingWar = itemBan.Type.FULL,
-                    RingMight = itemBan.Type.FULL,
-                    RingPiercing = itemBan.Type.FULL,
-                    FeetBootsStrength = itemBan.Type.FULL,
-                    HeadSpikedEars = itemBan.Type.FULL,
-                    HeadSunglasses = itemBan.Type.FULL,
-                    CharmRisk = itemBan.Type.FULL,
-                    CharmStrength = itemBan.Type.FULL,
-                    SpellFireball = itemBan.Type.FULL,
-                    SpellPulse = itemBan.Type.FULL,
-                    Sync_ShieldStrength = itemBan.Type.FULL,
+                  [2] = true
                 }
             },
+            traitRemoveEnemies = {
+                count = 3
+            },
+            traitSkipBosses = {},
+            traitSmallerShops = {},
+            traitInnatePeace = {},
+            songEndCast = {
+              spell = "SpellcastSuicide"
+            },
+            shoplifter = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Blooming Elegance",
