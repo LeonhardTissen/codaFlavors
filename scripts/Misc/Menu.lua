@@ -251,12 +251,13 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 	-- Add Icon next to character trio
 	local icons = {
 		"Crystal", "Shove", "Throw",
-		"Spell", "Lunge", "War",
-		"Bomb", "Dash", "Rifle",
-		"Diamond", "Soul", "Darkness",
-		"Courage", "Lance", "Learn"
+		"Spell", "Lunge", "Peace",
+		"War", "Bomb", "Dash", 
+		"Rifle", "Diamond", "Soul", 
+		"Darkness", "Courage", "Lance", 
+		"Learn"
 	}
-	for i = 1,15,1
+	for i = 1,16,1
 	do
 		local rownum = (i - 1) % 3
 		local x = math.floor((rownum - 5.5) * 48) + rownum * 48 * 3
