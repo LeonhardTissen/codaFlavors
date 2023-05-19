@@ -89,7 +89,8 @@ customEntities.register{name = "WeaponCrysda",
     visibilityVisibleOnProximity = {},
     visibleByMonocle = {},
     weapon = {
-        damage = 0
+        damage = 0,
+        damageType = 32
     },
     weaponCheckOriginCollision = {},
     weaponMaterial = {
