@@ -50,9 +50,16 @@ customEntities.extend {
                   shrineBanWeaponlocked = 4169217
                 }
             },
+            health = {
+                health = 6,
+                maxHealth = 4
+            },
             bypassStairLock = {},
+            traitSkipBosses = {},
             noNeedDamage = {},
             teleportingBombs = {},
+            traitNoSarcophagus = {},
+            traitNoTrapdoors = {},
             traitBannedSecretRooms = {
                 types = {
                   [2] = true
@@ -61,7 +68,6 @@ customEntities.extend {
             traitRemoveEnemies = {
                 count = 3
             },
-            traitSkipBosses = {},
             traitSmallerShops = {},
             traitInnatePeace = {},
             songEndCast = {
@@ -70,7 +76,7 @@ customEntities.extend {
             shoplifter = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
-                    friendlyName = "Thunderstruck",
+                    friendlyName = "Peace the hell out",
                     version = 1,
                     icon = "mods/CodaFlavors/sprites/Achievements/Polt.png"
                 },
@@ -83,6 +89,6 @@ customEntities.extend {
     },
 }
 }
-event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Coda"}, function(ev)
+event.entitySchemaLoadNamedEntity.add("sdafdas", {key="Aria"}, function(ev)
     print(ev.entity)
 end)

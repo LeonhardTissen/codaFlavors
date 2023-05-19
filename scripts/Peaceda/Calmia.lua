@@ -5,7 +5,7 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
-local map = require "necro.game.object.Map"
+local LevelExit = require "necro.game.tile.LevelExit"
 
 customEntities.extend {
     name="Calmia",
@@ -56,14 +56,9 @@ customEntities.extend {
                   shrineBanHealthlocked = 2916352,
                 }
             },
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "Thunderstruck",
-                    version = 1,
-                    icon = "mods/CodaFlavors/sprites/Achievements/Polt.png"
-                },
+            bypassStairLock = {
+                level = 2
             },
-            bypassStairLock = {},
             noNeedDamage = {},
             teleportingBombs = {},
             traitBannedSecretRooms = {
@@ -79,6 +74,8 @@ customEntities.extend {
             traitSkipBosses = {},
             traitSmallerShops = {},
             traitInnatePeace = {},
+            traitNoSarcophagus = {},
+            traitNoTrapdoors = {},
             songEndCast = {
               spell = "SpellcastSuicide"
             },
