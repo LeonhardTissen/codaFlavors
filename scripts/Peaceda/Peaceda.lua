@@ -63,17 +63,17 @@ customEntities.extend {
             },
             inventoryBannedItems = {
                 components = {
-                  itemBanKillPoverty = itemBan.Flag.PICKUP_DEATH,
-                  itemBanHealthlocked = 2916352,
-                  itemBanNoDamage = 2916352,
-                  itemBanPacifist = 4169217,
-                  itemBanPoverty = 2916352,
-                  itemBanShoplifter = 2916352,
-                  itemBanWeaponlocked = 4169217,
-                  shovel = 2916352,
-                  shrineBanPacifist = 4169217,
-                  shrineBanWeaponlocked = 4169217,
-                  shrineBanHealthlocked = 2916352,
+                    itemBanKillPoverty = itemBan.Flag.PICKUP_DEATH,
+                    itemBanHealthlocked = 2916352,
+                    itemBanNoDamage = 2916352,
+                    itemBanPacifist = 4169217,
+                    itemBanPoverty = 2916352,
+                    itemBanShoplifter = 2916352,
+                    itemBanWeaponlocked = 4169217,
+                    shovel = 2916352,
+                    shrineBanPacifist = 4169217,
+                    shrineBanWeaponlocked = 4169217,
+                    shrineBanHealthlocked = 2916352,
                 }
             },
             noNeedDamage = {},
@@ -83,9 +83,9 @@ customEntities.extend {
             teleportingBombs = {},
             traitBannedSecretRooms = {
                 types = {
-                  [2] = true,
-                  [3] = true,
-                  [5] = true,
+                    [2] = true,
+                    [3] = true,
+                    [5] = true,
                 }
             },
             traitRemoveEnemies = {
@@ -97,13 +97,13 @@ customEntities.extend {
             traitNoSarcophagus = {},
             traitNoTrapdoors = {},
             songEndCast = {
-              spell = "SpellcastSuicide"
+                spell = "SpellcastSuicide"
             },
             shoplifter = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Blooming Elegance",
-                    version = 1,
+                    version = 2,
                     icon = "mods/CodaFlavors/sprites/Achievements/Peaceda.png"
                 },
             }
