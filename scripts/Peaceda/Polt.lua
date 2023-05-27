@@ -41,13 +41,13 @@ customEntities.extend {
             },
             inventoryBannedItems = {
                 components = {
-                  itemBanNoDamage = 2916352,
-                  itemBanPacifist = 4169217,
-                  itemBanShoplifter = 2916352,
-                  itemBanWeaponlocked = 4169217,
-                  shovel = 2916352,
-                  shrineBanPacifist = 4169217,
-                  shrineBanWeaponlocked = 4169217
+                    itemBanNoDamage = 2916352,
+                    itemBanPacifist = 4169217,
+                    itemBanShoplifter = 2916352,
+                    itemBanWeaponlocked = 4169217,
+                    shovel = 2916352,
+                    shrineBanPacifist = 4169217,
+                    shrineBanWeaponlocked = 4169217
                 }
             },
             health = {
@@ -62,7 +62,7 @@ customEntities.extend {
             traitNoTrapdoors = {},
             traitBannedSecretRooms = {
                 types = {
-                  [2] = true
+                    [2] = true
                 }
             },
             traitRemoveEnemies = {
@@ -71,13 +71,13 @@ customEntities.extend {
             traitSmallerShops = {},
             traitInnatePeace = {},
             songEndCast = {
-              spell = "SpellcastSuicide"
+                spell = "SpellcastSuicide"
             },
             shoplifter = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Peace the hell out",
-                    version = 1,
+                    version = 2,
                     icon = "mods/CodaFlavors/sprites/Achievements/Polt.png"
                 },
             },
