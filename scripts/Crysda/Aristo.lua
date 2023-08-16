@@ -5,6 +5,7 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local levelExit = require "necro.game.tile.LevelExit"
 
 customEntities.extend {
     name="Aristo",
@@ -38,6 +39,9 @@ customEntities.extend {
                 slots = {
                     shield = true;
                 }
+            },
+            bypassStairLock = {
+                level = levelExit.StairLock.SARCOPHAGUS
             },
             inventoryBannedItemTypes = {
                 types = {

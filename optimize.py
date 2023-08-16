@@ -24,6 +24,7 @@ not_optimized = [
     "Barista",
     "Usain",
     "Bush",
+    "Polt",
     "Achievements",
     "Icons"
 ]
