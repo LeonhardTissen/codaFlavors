@@ -32,7 +32,7 @@ customEntities.extend {
                 types = {},
             },
             initialEquipment={
-                items={"CodaFlavors_SpellBomb","CodaFlavors_HeadBlastHelmBoomia","ShovelBasic"},
+                items={"CodaFlavors_SpellBomb","CodaFlavors_HeadBlastHelmBoomia","CharmNazar","ShovelBasic"},
             },
             inventoryCursedSlots = {
                 slots = {

@@ -32,7 +32,7 @@ customEntities.extend {
                 types = {},
             },
             initialEquipment={
-                items={"ShovelTitanium","WeaponTitaniumDagger","Sync_ShieldWooden","Bomb","CodaFlavors_BlindaRing"},
+                items={"ShovelTitanium","WeaponTitaniumDagger","Sync_ShieldWooden","CharmNazar","Bomb","CodaFlavors_BlindaRing"},
             },
             inventoryCursedSlots = {
                 slots = {

@@ -33,7 +33,7 @@ customEntities.extend {
                 texture = "mods/CodaFlavors/sprites/Shoveda/BushClone.png",
             },
             initialEquipment={
-                items={"ShovelBasic","CodaFlavors_ShovedaShield","Bomb3"},
+                items={"ShovelBasic","CodaFlavors_ShovedaShield","CharmNazar","Bomb3"},
             },
             enemyBans = {
                 types = {"Wight","Ghoul","Ghast"},

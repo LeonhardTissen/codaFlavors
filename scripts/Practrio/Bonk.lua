@@ -1,6 +1,7 @@
 local customEntities = require "necro.game.data.CustomEntities"
 local components = require "necro.game.data.Components"
 local ecs = require "system.game.Entities"
+local enemySubstitutions = require "necro.game.system.EnemySubstitutions"
 local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
@@ -31,14 +32,26 @@ customEntities.extend {
             cloneSprite = {
                 texture = "mods/CodaFlavors/sprites/Practrio/BonkClone.png",
             },
-            enemyBans = {
-                types = {
-                    "Bat2","Bat4"
-                },
-            },
+            traitSubstituteEnemies = {
+				type = enemySubstitutions.Type.DOWNGRADE_BATS
+			},
             initialEquipment={
                 items={"ShovelBlood","WeaponSpear","Bomb","CharmNazar"},
             },
+			inventoryBannedItems = {
+				components = {
+					itemGrooveChainImmunity = itemBan.Type.FULL,
+					itemBanKillPoverty = itemBan.Flag.PICKUP_DEATH,
+					itemBanPoverty = itemBan.Type.GENERATION,
+					itemBanShoplifter = itemBan.Type.GENERATION,
+				}
+			},
+			lowPercent = {
+				allowedItems = {
+					WeaponGoldenLute = true,
+					WeaponSpear = true
+				}
+			},
             rhythmSubdivision = {
                 factor = 2
             },
@@ -46,18 +59,15 @@ customEntities.extend {
                 health = 6,
                 maxHealth = 6
             },
-            InGameAchievements_allZonesAchievement = {
-                data = {
-                    friendlyName = "No Popcorn for me!",
-                    version = 1,
-                    icon = "mods/CodaFlavors/sprites/Achievements/Bonk.png"
-                },
-            }
         },
 		{
 			sprite = {
                 texture= "mods/CodaFlavors/sprites/Practrio/BonkHead.png"
             },
+			attachmentCopySpritePosition = {
+				offsetY = -1,
+				offsetZ = 1,
+			},
         },
     },
 }

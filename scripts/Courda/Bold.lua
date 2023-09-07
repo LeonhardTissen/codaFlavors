@@ -30,7 +30,7 @@ customEntities.extend {
                 texture = "mods/CodaFlavors/sprites/Courda/BoldClone.png",
             },
             initialEquipment={
-                items={"CodaFlavors_CourdaShovel","WeaponSpear","Bomb","CodaFlavors_CourdaRing"},
+                items={"CodaFlavors_CourdaShovel","WeaponSpear","CharmNazar","Bomb","CodaFlavors_CourdaRing"},
             },
             inventoryCursedSlots = {
                 slots = {

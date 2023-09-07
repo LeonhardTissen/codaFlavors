@@ -31,7 +31,7 @@ customEntities.extend {
             enemyBans = {
             },
             initialEquipment={
-                items={"ShovelBasic","WeaponSpear","Bomb","Torch1"},
+                items={"ShovelBasic","WeaponSpear","CharmNazar","Bomb","Torch1"},
             },
             rhythmSubdivision = {
                 factor = 2
