@@ -13,7 +13,7 @@ customEntities.extend {
         {
             friendlyName={name="Spectria"},
             CodaFlavors_menu={
-                order = 47,
+                order = 1011,
                 explanation = "Aria but Ghost"
             },
 			textCharacterSelectionMessage = { text = "Spectria mode!\n You are ethereal!\n Haunt the crypt with your ghostly presence!"},

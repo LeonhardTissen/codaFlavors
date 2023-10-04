@@ -255,7 +255,7 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 		"War", "Bomb", "Dash", 
 		"Rifle", "Diamond", "Soul", 
 		"Darkness", "Courage", "Lance", 
-		"Learn"
+		"Learn", "Phasing"
 	}
 	for i = 1,16,1
 	do

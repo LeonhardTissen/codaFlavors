@@ -32,7 +32,7 @@ customEntities.extend {
             },
             friendlyName={name="Ghostda"},
             CodaFlavors_menu={
-                order = 46,
+                order = 1010,
                 explanation = "Coda but Ghost"
             },
 			textCharacterSelectionMessage = { text = "Ghostda mode!\n You are ethereal!\n Haunt the crypt with your ghostly presence!"},
