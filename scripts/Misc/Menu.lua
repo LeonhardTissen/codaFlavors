@@ -257,7 +257,7 @@ event.menu.add("CodaFlavorsMenu", "CodaFlavorsMenu_select", function (ev)
 		"Darkness", "Courage", "Lance", 
 		"Learn", "Phasing"
 	}
-	for i = 1,16,1
+	for i = 1,17,1
 	do
 		local rownum = (i - 1) % 3
 		local x = math.floor((rownum - 5.5) * 48) + rownum * 48 * 3
