@@ -45,6 +45,14 @@ customEntities.extend {
                     action = true
                 }
             },
+            inventoryBannedItemTypes = {
+                types = {
+                    BagHolding = itemBan.Type.FULL,
+                    HudBackpack = itemBan.Type.FULL,
+                    Bomb = itemBan.Type.FULL,
+                    CharmBomb = itemBan.Type.FULL
+                }
+            },
             traitRemoveEnemies = {
                 count = 3
             },
