@@ -45,15 +45,15 @@ customEntities.extend {
                     torch = true,
                     ring = true,
                     shield = true,
-                    action = true
+                    action = true,
+                    bomb = true
                 }
             },
             inventoryBannedItemTypes = {
                 types = {
                     BagHolding = itemBan.Type.FULL,
                     HudBackpack = itemBan.Type.FULL,
-                    Bomb = itemBan.Type.FULL,
-                    CharmBomb = itemBan.Type.FULL
+                    CharmBomb = itemBan.Type.GENERATION_ALL
                 }
             },
             traitRemoveEnemies = {
@@ -62,7 +62,6 @@ customEntities.extend {
             traitSmallerShops = {},
             traitInnatePeace = {},
             traitNoTrapdoors = {},
-            shoplifter = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "A Haunting Performance",

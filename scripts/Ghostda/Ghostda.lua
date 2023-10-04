@@ -5,6 +5,7 @@ local itemBan = require "necro.game.item.ItemBan"
 local object = require "necro.game.object.Object"
 local settings = require "necro.config.Settings"
 local inventory = require "necro.game.item.Inventory"
+local PlayerList = require "necro.client.PlayerList"
 
 customEntities.extend {
     name="Ghostda",
@@ -64,15 +65,15 @@ customEntities.extend {
                     torch = true,
                     ring = true,
                     shield = true,
-                    action = true
+                    action = true,
+                    bomb = true
                 }
             },
             inventoryBannedItemTypes = {
                 types = {
                     BagHolding = itemBan.Type.FULL,
                     HudBackpack = itemBan.Type.FULL,
-                    Bomb = itemBan.Type.FULL,
-                    CharmBomb = itemBan.Type.FULL
+                    CharmBomb = itemBan.Type.GENERATION_ALL
                 }
             },
             traitRemoveEnemies = {
@@ -82,6 +83,7 @@ customEntities.extend {
             traitInnatePeace = {},
             traitNoTrapdoors = {},
             shoplifter = {},
+            CodaFlavors_tinyShops = {},
             InGameAchievements_allZonesAchievement = {
                 data = {
                     friendlyName = "Can't touch this!",
